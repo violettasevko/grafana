@@ -22,7 +22,7 @@
   "fiscalYearStartMonth": 0,
   "graphTooltip": 0,
   "id": 8,
-  "iteration": 1664645714158,
+  "iteration": 1664742101668,
   "links": [],
   "liveNow": false,
   "panels": [
@@ -4037,7 +4037,7 @@
     {
       "datasource": {
         "type": "cloudwatch",
-        "uid": "owx-9Wn4z"
+        "uid": "${cwsource}"
       },
       "fieldConfig": {
         "defaults": {
@@ -4112,7 +4112,7 @@
           "alias": "",
           "datasource": {
             "type": "cloudwatch",
-            "uid": "owx-9Wn4z"
+            "uid": "${cwsource}"
           },
           "dimensions": {},
           "expression": "",
