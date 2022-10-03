@@ -18,22 +18,131 @@
       }
     ]
   },
+  "description": "Duty dashboard for prod resources - CloudWatch",
   "editable": true,
   "fiscalYearStartMonth": 0,
   "graphTooltip": 0,
   "id": 8,
-  "iteration": 1664742101668,
-  "links": [],
+  "iteration": 1664826098832,
+  "links": [
+    {
+      "asDropdown": false,
+      "icon": "dashboard",
+      "includeVars": false,
+      "keepTime": false,
+      "tags": [],
+      "targetBlank": false,
+      "title": "Duty",
+      "tooltip": "",
+      "type": "link",
+      "url": "/d/tuyzAH44k/duty"
+    },
+    {
+      "asDropdown": false,
+      "icon": "dashboard",
+      "includeVars": false,
+      "keepTime": false,
+      "tags": [],
+      "targetBlank": false,
+      "title": "Linux",
+      "tooltip": "",
+      "type": "link",
+      "url": "/d/rYdddlPWk/linux-monitoring"
+    },
+    {
+      "asDropdown": false,
+      "icon": "dashboard",
+      "includeVars": false,
+      "keepTime": false,
+      "tags": [],
+      "targetBlank": false,
+      "title": "Nginx",
+      "tooltip": "",
+      "type": "link",
+      "url": "/d/MsjffzSZz/nginx-monitoring"
+    },
+    {
+      "asDropdown": false,
+      "icon": "dashboard",
+      "includeVars": false,
+      "keepTime": false,
+      "tags": [],
+      "targetBlank": false,
+      "title": "PHP",
+      "tooltip": "",
+      "type": "link",
+      "url": "/d/D6TvmAZik/php-fpm-monitoring"
+    },
+    {
+      "asDropdown": false,
+      "icon": "dashboard",
+      "includeVars": false,
+      "keepTime": false,
+      "tags": [],
+      "targetBlank": false,
+      "title": "Docker",
+      "tooltip": "",
+      "type": "link",
+      "url": "/d/pMEd7m0Mz/docker-monitoring"
+    },
+    {
+      "asDropdown": false,
+      "icon": "external link",
+      "includeVars": false,
+      "keepTime": false,
+      "tags": [],
+      "targetBlank": false,
+      "title": "Dashboards",
+      "tooltip": "",
+      "type": "dashboards",
+      "url": ""
+    }
+  ],
   "liveNow": false,
   "panels": [
+    {
+      "collapsed": false,
+      "gridPos": {
+        "h": 1,
+        "w": 24,
+        "x": 0,
+        "y": 0
+      },
+      "id": 118,
+      "panels": [],
+      "title": "PROD monitoring",
+      "type": "row"
+    },
     {
       "gridPos": {
         "h": 2,
         "w": 8,
         "x": 0,
-        "y": 0
+        "y": 1
       },
       "id": 36,
+      "links": [
+        {
+          "title": "Duty",
+          "url": "/d/tuyzAH44k/duty"
+        },
+        {
+          "title": "Linux",
+          "url": "/d/rYdddlPWk/linux-monitoring"
+        },
+        {
+          "title": "Nginx",
+          "url": "/d/MsjffzSZz/nginx-monitoring"
+        },
+        {
+          "title": "PHP",
+          "url": "/d/D6TvmAZik/php-fpm-monitoring"
+        },
+        {
+          "title": "Docker",
+          "url": "/d/pMEd7m0Mz/docker-monitoring"
+        }
+      ],
       "options": {
         "content": "c5.9xlarge - CPU: **36**, Memory: **72GB**, Network: **10Gbit/s**, EBS: **9.5Gbit/s**",
         "mode": "markdown"
@@ -47,7 +156,7 @@
         "h": 2,
         "w": 8,
         "x": 8,
-        "y": 0
+        "y": 1
       },
       "id": 38,
       "options": {
@@ -63,7 +172,7 @@
         "h": 2,
         "w": 8,
         "x": 16,
-        "y": 0
+        "y": 1
       },
       "id": 40,
       "options": {
@@ -75,11 +184,12 @@
       "type": "text"
     },
     {
+      "description": "",
       "gridPos": {
         "h": 3,
         "w": 8,
         "x": 0,
-        "y": 2
+        "y": 3
       },
       "id": 42,
       "options": {
@@ -100,7 +210,7 @@
         "tags": []
       },
       "pluginVersion": "8.4.7",
-      "title": "EC2 Alerts",
+      "title": "EC2 Alerts (in progress...)",
       "type": "alertlist"
     },
     {
@@ -108,7 +218,7 @@
         "h": 3,
         "w": 8,
         "x": 8,
-        "y": 2
+        "y": 3
       },
       "id": 44,
       "options": {
@@ -129,7 +239,7 @@
         "tags": []
       },
       "pluginVersion": "8.4.7",
-      "title": "RDS Alerts",
+      "title": "RDS Alerts (in progress...)",
       "type": "alertlist"
     },
     {
@@ -137,7 +247,7 @@
         "h": 3,
         "w": 8,
         "x": 16,
-        "y": 2
+        "y": 3
       },
       "id": 46,
       "options": {
@@ -158,7 +268,7 @@
         "tags": []
       },
       "pluginVersion": "8.4.7",
-      "title": "Redis Alerts",
+      "title": "Redis Alerts (in progress...)",
       "type": "alertlist"
     },
     {
@@ -221,7 +331,7 @@
         "h": 11,
         "w": 8,
         "x": 0,
-        "y": 5
+        "y": 6
       },
       "id": 2,
       "options": {
@@ -326,7 +436,7 @@
         "h": 11,
         "w": 8,
         "x": 8,
-        "y": 5
+        "y": 6
       },
       "id": 22,
       "options": {
@@ -427,7 +537,7 @@
         "h": 11,
         "w": 8,
         "x": 16,
-        "y": 5
+        "y": 6
       },
       "id": 24,
       "options": {
@@ -701,7 +811,7 @@
         "h": 11,
         "w": 8,
         "x": 0,
-        "y": 16
+        "y": 17
       },
       "id": 4,
       "options": {
@@ -828,7 +938,7 @@
         "h": 11,
         "w": 8,
         "x": 8,
-        "y": 16
+        "y": 17
       },
       "id": 28,
       "options": {
@@ -930,7 +1040,7 @@
         "h": 11,
         "w": 8,
         "x": 16,
-        "y": 16
+        "y": 17
       },
       "id": 26,
       "options": {
@@ -1030,7 +1140,7 @@
         "h": 11,
         "w": 8,
         "x": 0,
-        "y": 27
+        "y": 28
       },
       "id": 6,
       "options": {
@@ -1156,7 +1266,7 @@
         "h": 11,
         "w": 8,
         "x": 8,
-        "y": 27
+        "y": 28
       },
       "id": 30,
       "options": {
@@ -1282,7 +1392,7 @@
         "h": 11,
         "w": 8,
         "x": 16,
-        "y": 27
+        "y": 28
       },
       "id": 64,
       "options": {
@@ -1384,7 +1494,7 @@
         "h": 11,
         "w": 8,
         "x": 0,
-        "y": 38
+        "y": 39
       },
       "id": 8,
       "options": {
@@ -1510,7 +1620,7 @@
         "h": 11,
         "w": 8,
         "x": 8,
-        "y": 38
+        "y": 39
       },
       "id": 32,
       "options": {
@@ -1611,7 +1721,7 @@
         "h": 11,
         "w": 8,
         "x": 16,
-        "y": 38
+        "y": 39
       },
       "id": 66,
       "options": {
@@ -1923,7 +2033,7 @@
         "h": 11,
         "w": 8,
         "x": 0,
-        "y": 49
+        "y": 50
       },
       "id": 10,
       "options": {
@@ -2025,7 +2135,7 @@
         "h": 11,
         "w": 8,
         "x": 8,
-        "y": 49
+        "y": 50
       },
       "id": 34,
       "options": {
@@ -2126,7 +2236,7 @@
         "h": 11,
         "w": 8,
         "x": 16,
-        "y": 49
+        "y": 50
       },
       "id": 68,
       "options": {
@@ -2304,7 +2414,7 @@
         "h": 11,
         "w": 8,
         "x": 0,
-        "y": 60
+        "y": 61
       },
       "id": 12,
       "options": {
@@ -2406,7 +2516,7 @@
         "h": 11,
         "w": 8,
         "x": 8,
-        "y": 60
+        "y": 61
       },
       "id": 48,
       "options": {
@@ -2507,7 +2617,7 @@
         "h": 11,
         "w": 8,
         "x": 16,
-        "y": 60
+        "y": 61
       },
       "id": 70,
       "options": {
@@ -2685,7 +2795,7 @@
         "h": 11,
         "w": 8,
         "x": 0,
-        "y": 71
+        "y": 72
       },
       "id": 14,
       "options": {
@@ -2787,7 +2897,7 @@
         "h": 11,
         "w": 8,
         "x": 8,
-        "y": 71
+        "y": 72
       },
       "id": 50,
       "options": {
@@ -2815,7 +2925,7 @@
           "id": "",
           "matchExact": true,
           "metricEditorMode": 0,
-          "metricName": "WriteLatency",
+          "metricName": "WriteThroughput",
           "metricQueryType": 0,
           "namespace": "AWS/RDS",
           "period": "",
@@ -2826,7 +2936,7 @@
           "statistic": "Average"
         }
       ],
-      "title": "RDS WriteLatency: Maximum",
+      "title": "RDS WriteThroughput: Average",
       "type": "timeseries"
     },
     {
@@ -2888,7 +2998,7 @@
         "h": 11,
         "w": 8,
         "x": 16,
-        "y": 71
+        "y": 72
       },
       "id": 72,
       "options": {
@@ -3089,7 +3199,7 @@
         "h": 11,
         "w": 8,
         "x": 0,
-        "y": 82
+        "y": 83
       },
       "id": 18,
       "options": {
@@ -3191,7 +3301,7 @@
         "h": 11,
         "w": 8,
         "x": 8,
-        "y": 82
+        "y": 83
       },
       "id": 52,
       "options": {
@@ -3292,7 +3402,7 @@
         "h": 11,
         "w": 8,
         "x": 16,
-        "y": 82
+        "y": 83
       },
       "id": 78,
       "options": {
@@ -3470,7 +3580,7 @@
         "h": 6,
         "w": 4,
         "x": 0,
-        "y": 93
+        "y": 94
       },
       "id": 20,
       "options": {
@@ -3572,7 +3682,7 @@
         "h": 11,
         "w": 8,
         "x": 8,
-        "y": 93
+        "y": 94
       },
       "id": 54,
       "options": {
@@ -3697,7 +3807,7 @@
         "h": 11,
         "w": 8,
         "x": 16,
-        "y": 93
+        "y": 94
       },
       "id": 74,
       "options": {
@@ -3821,7 +3931,7 @@
         "h": 1,
         "w": 8,
         "x": 0,
-        "y": 99
+        "y": 100
       },
       "id": 94,
       "options": {
@@ -3891,7 +4001,7 @@
         "h": 9,
         "w": 8,
         "x": 0,
-        "y": 100
+        "y": 101
       },
       "id": 96,
       "options": {
@@ -3992,7 +4102,7 @@
         "h": 11,
         "w": 8,
         "x": 8,
-        "y": 104
+        "y": 105
       },
       "id": 56,
       "options": {
@@ -4035,10 +4145,7 @@
       "type": "timeseries"
     },
     {
-      "datasource": {
-        "type": "cloudwatch",
-        "uid": "${cwsource}"
-      },
+      "datasource": {},
       "fieldConfig": {
         "defaults": {
           "color": {
@@ -4093,7 +4200,7 @@
         "h": 11,
         "w": 8,
         "x": 16,
-        "y": 104
+        "y": 105
       },
       "id": 76,
       "options": {
@@ -4112,7 +4219,7 @@
           "alias": "",
           "datasource": {
             "type": "cloudwatch",
-            "uid": "${cwsource}"
+            "uid": "owx-9Wn4z"
           },
           "dimensions": {},
           "expression": "",
@@ -4192,7 +4299,7 @@
         "h": 9,
         "w": 8,
         "x": 0,
-        "y": 109
+        "y": 110
       },
       "id": 98,
       "options": {
@@ -4293,7 +4400,7 @@
         "h": 11,
         "w": 8,
         "x": 8,
-        "y": 115
+        "y": 116
       },
       "id": 58,
       "options": {
@@ -4394,7 +4501,7 @@
         "h": 8,
         "w": 8,
         "x": 16,
-        "y": 115
+        "y": 116
       },
       "id": 80,
       "options": {
@@ -4593,7 +4700,7 @@
         "h": 9,
         "w": 8,
         "x": 0,
-        "y": 118
+        "y": 119
       },
       "id": 100,
       "options": {
@@ -4694,7 +4801,7 @@
         "h": 9,
         "w": 8,
         "x": 16,
-        "y": 123
+        "y": 124
       },
       "id": 82,
       "options": {
@@ -4893,7 +5000,7 @@
         "h": 10,
         "w": 8,
         "x": 8,
-        "y": 126
+        "y": 127
       },
       "id": 60,
       "options": {
@@ -5018,7 +5125,7 @@
         "h": 10,
         "w": 8,
         "x": 0,
-        "y": 127
+        "y": 128
       },
       "id": 102,
       "options": {
@@ -5143,7 +5250,7 @@
         "h": 9,
         "w": 8,
         "x": 16,
-        "y": 132
+        "y": 133
       },
       "id": 84,
       "options": {
@@ -5316,7 +5423,7 @@
         "h": 6,
         "w": 4,
         "x": 8,
-        "y": 136
+        "y": 137
       },
       "id": 62,
       "options": {
@@ -5417,7 +5524,7 @@
         "h": 10,
         "w": 8,
         "x": 0,
-        "y": 137
+        "y": 138
       },
       "id": 104,
       "options": {
@@ -5518,7 +5625,7 @@
         "h": 10,
         "w": 8,
         "x": 16,
-        "y": 141
+        "y": 142
       },
       "id": 86,
       "options": {
@@ -5685,40 +5792,15 @@
             ]
           }
         },
-        "overrides": [
-          {
-            "__systemRef": "hideSeriesFrom",
-            "matcher": {
-              "id": "byNames",
-              "options": {
-                "mode": "exclude",
-                "names": [
-                  "Invocations_Average"
-                ],
-                "prefix": "All except:",
-                "readOnly": true
-              }
-            },
-            "properties": [
-              {
-                "id": "custom.hideFrom",
-                "value": {
-                  "legend": false,
-                  "tooltip": false,
-                  "viz": true
-                }
-              }
-            ]
-          }
-        ]
+        "overrides": []
       },
       "gridPos": {
         "h": 9,
         "w": 8,
         "x": 0,
-        "y": 147
+        "y": 148
       },
-      "id": 106,
+      "id": 114,
       "options": {
         "legend": {
           "calcs": [],
@@ -5752,7 +5834,7 @@
           "refId": "A",
           "region": "default",
           "sqlExpression": "",
-          "statistic": "Average"
+          "statistic": "Sum"
         },
         {
           "alias": "",
@@ -5776,7 +5858,7 @@
           "refId": "B",
           "region": "default",
           "sqlExpression": "",
-          "statistic": "Average"
+          "statistic": "Sum"
         }
       ],
       "title": "Lambda: nginx - Invocations",
@@ -5841,7 +5923,7 @@
         "h": 9,
         "w": 8,
         "x": 16,
-        "y": 151
+        "y": 152
       },
       "id": 88,
       "options": {
@@ -6014,9 +6096,9 @@
         "h": 10,
         "w": 8,
         "x": 0,
-        "y": 156
+        "y": 157
       },
-      "id": 108,
+      "id": 116,
       "options": {
         "legend": {
           "calcs": [],
@@ -6050,7 +6132,7 @@
           "refId": "A",
           "region": "default",
           "sqlExpression": "",
-          "statistic": "Average"
+          "statistic": "Sum"
         }
       ],
       "title": "Lambda: cwl - Invocations",
@@ -6115,7 +6197,7 @@
         "h": 9,
         "w": 8,
         "x": 16,
-        "y": 160
+        "y": 161
       },
       "id": 90,
       "options": {
@@ -6292,7 +6374,7 @@
         "h": 9,
         "w": 8,
         "x": 0,
-        "y": 166
+        "y": 167
       },
       "id": 110,
       "options": {
@@ -6417,7 +6499,7 @@
         "h": 10,
         "w": 8,
         "x": 16,
-        "y": 169
+        "y": 170
       },
       "id": 92,
       "options": {
@@ -6594,7 +6676,7 @@
         "h": 9,
         "w": 8,
         "x": 0,
-        "y": 175
+        "y": 176
       },
       "id": 112,
       "options": {
@@ -6640,26 +6722,31 @@
   "refresh": "",
   "schemaVersion": 35,
   "style": "dark",
-  "tags": [],
+  "tags": [
+    "CloudWatch",
+    "AWS"
+  ],
   "templating": {
     "list": [
       {
         "current": {
           "selected": false,
-          "text": "Prod CloudWatch eu-central-1",
-          "value": "Prod CloudWatch eu-central-1"
+          "text": "default",
+          "value": "default"
         },
-        "hide": 0,
-        "includeAll": false,
-        "multi": false,
+        "hide": 2,
+        "label": "",
         "name": "cwsource",
-        "options": [],
-        "query": "cloudwatch",
-        "queryValue": "",
-        "refresh": 1,
-        "regex": "",
+        "options": [
+          {
+            "selected": true,
+            "text": "default",
+            "value": "default"
+          }
+        ],
+        "query": "default",
         "skipUrlSync": false,
-        "type": "datasource"
+        "type": "textbox"
       },
       {
         "current": {
@@ -6667,13 +6754,13 @@
           "text": "i-0d0d08e7b4a9398ce",
           "value": "i-0d0d08e7b4a9398ce"
         },
-        "hide": 0,
+        "hide": 2,
         "name": "instance_id",
         "options": [
           {
             "selected": true,
-            "text": "instance_id",
-            "value": "instance_id"
+            "text": "i-0d0d08e7b4a9398ce",
+            "value": "i-0d0d08e7b4a9398ce"
           }
         ],
         "query": "i-0d0d08e7b4a9398ce",
@@ -6686,13 +6773,13 @@
           "text": "production",
           "value": "production"
         },
-        "hide": 0,
+        "hide": 2,
         "name": "rds_id",
         "options": [
           {
             "selected": true,
-            "text": "rds_id",
-            "value": "rds_id"
+            "text": "production",
+            "value": "production"
           }
         ],
         "query": "production",
@@ -6705,7 +6792,7 @@
           "text": "prod-cluster-0001-001",
           "value": "prod-cluster-0001-001"
         },
-        "hide": 0,
+        "hide": 2,
         "name": "redis_0001_001",
         "options": [
           {
@@ -6724,7 +6811,7 @@
           "text": "prod-cluster-0002-001",
           "value": "prod-cluster-0002-001"
         },
-        "hide": 0,
+        "hide": 2,
         "name": "redis_0002_001",
         "options": [
           {
@@ -6743,7 +6830,7 @@
           "text": "prod-cluster-0003-001",
           "value": "prod-cluster-0003-001"
         },
-        "hide": 0,
+        "hide": 2,
         "name": "redis_0003_001",
         "options": [
           {
@@ -6762,7 +6849,7 @@
           "text": "prod-cluster-0004-001",
           "value": "prod-cluster-0004-001"
         },
-        "hide": 0,
+        "hide": 2,
         "name": "redis_0004_001",
         "options": [
           {
@@ -6781,7 +6868,7 @@
           "text": "*",
           "value": "*"
         },
-        "hide": 0,
+        "hide": 2,
         "name": "redis_all",
         "options": [
           {
@@ -6800,7 +6887,7 @@
           "text": "AccessLogsToOpenSearch_logs",
           "value": "AccessLogsToOpenSearch_logs"
         },
-        "hide": 0,
+        "hide": 2,
         "name": "nginx_access",
         "options": [
           {
@@ -6819,7 +6906,7 @@
           "text": "ErrorLogsToOpenSearch_logs",
           "value": "ErrorLogsToOpenSearch_logs"
         },
-        "hide": 0,
+        "hide": 2,
         "name": "nginx_error",
         "options": [
           {
@@ -6838,7 +6925,7 @@
           "text": "LogsToElasticsearch_logs",
           "value": "LogsToElasticsearch_logs"
         },
-        "hide": 0,
+        "hide": 2,
         "name": "cwl",
         "options": [
           {
@@ -6859,8 +6946,8 @@
   },
   "timepicker": {},
   "timezone": "",
-  "title": "duty",
+  "title": "Duty",
   "uid": "tuyzAH44k",
-  "version": 7,
+  "version": 29,
   "weekStart": ""
 }
