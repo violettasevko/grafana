@@ -23,7 +23,7 @@
   "fiscalYearStartMonth": 0,
   "graphTooltip": 0,
   "id": 8,
-  "iteration": 1664826098832,
+  "iteration": 1664914898837,
   "links": [
     {
       "asDropdown": false,
@@ -86,7 +86,7 @@
       "url": "/d/pMEd7m0Mz/docker-monitoring"
     },
     {
-      "asDropdown": false,
+      "asDropdown": true,
       "icon": "external link",
       "includeVars": false,
       "keepTime": false,
@@ -186,14 +186,38 @@
     {
       "description": "",
       "gridPos": {
-        "h": 3,
+        "h": 6,
         "w": 8,
         "x": 0,
         "y": 3
       },
-      "id": 42,
+      "id": 120,
+      "libraryPanel": {
+        "description": "",
+        "meta": {
+          "connectedDashboards": 2,
+          "created": "2022-10-04T13:29:20Z",
+          "createdBy": {
+            "avatarUrl": "/public/img/user_profile.png",
+            "id": 3,
+            "name": "violetta-sevko"
+          },
+          "folderName": "Library panel folder",
+          "folderUid": "TX19DB4Vz",
+          "updated": "2022-10-04T13:29:20Z",
+          "updatedBy": {
+            "avatarUrl": "/public/img/user_profile.png",
+            "id": 3,
+            "name": "violetta-sevko"
+          }
+        },
+        "name": "Prod EC2 Alerts",
+        "type": "alertlist",
+        "uid": "-FlSKfVVz",
+        "version": 1
+      },
       "options": {
-        "alertName": "CPU_alarm_PROD",
+        "alertName": "EC2",
         "dashboardAlerts": false,
         "dashboardTitle": "",
         "maxItems": 10,
@@ -210,19 +234,44 @@
         "tags": []
       },
       "pluginVersion": "8.4.7",
-      "title": "EC2 Alerts (in progress...)",
+      "title": "Prod EC2 Alerts",
       "type": "alertlist"
     },
     {
+      "description": "",
       "gridPos": {
-        "h": 3,
+        "h": 8,
         "w": 8,
         "x": 8,
         "y": 3
       },
-      "id": 44,
+      "id": 122,
+      "libraryPanel": {
+        "description": "",
+        "meta": {
+          "connectedDashboards": 2,
+          "created": "2022-10-04T13:29:32Z",
+          "createdBy": {
+            "avatarUrl": "/public/img/user_profile.png",
+            "id": 3,
+            "name": "violetta-sevko"
+          },
+          "folderName": "Library panel folder",
+          "folderUid": "TX19DB4Vz",
+          "updated": "2022-10-04T13:29:32Z",
+          "updatedBy": {
+            "avatarUrl": "/public/img/user_profile.png",
+            "id": 3,
+            "name": "violetta-sevko"
+          }
+        },
+        "name": "Prod RDS Alerts",
+        "type": "alertlist",
+        "uid": "rwnHFfVVk",
+        "version": 1
+      },
       "options": {
-        "alertName": "",
+        "alertName": "RDS",
         "dashboardAlerts": false,
         "dashboardTitle": "",
         "maxItems": 10,
@@ -239,19 +288,44 @@
         "tags": []
       },
       "pluginVersion": "8.4.7",
-      "title": "RDS Alerts (in progress...)",
+      "title": "Prod RDS Alerts",
       "type": "alertlist"
     },
     {
+      "description": "",
       "gridPos": {
-        "h": 3,
+        "h": 8,
         "w": 8,
         "x": 16,
         "y": 3
       },
-      "id": 46,
+      "id": 124,
+      "libraryPanel": {
+        "description": "",
+        "meta": {
+          "connectedDashboards": 2,
+          "created": "2022-10-04T13:29:44Z",
+          "createdBy": {
+            "avatarUrl": "/public/img/user_profile.png",
+            "id": 3,
+            "name": "violetta-sevko"
+          },
+          "folderName": "Library panel folder",
+          "folderUid": "TX19DB4Vz",
+          "updated": "2022-10-04T13:29:44Z",
+          "updatedBy": {
+            "avatarUrl": "/public/img/user_profile.png",
+            "id": 3,
+            "name": "violetta-sevko"
+          }
+        },
+        "name": "Prod Redis Alerts",
+        "type": "alertlist",
+        "uid": "ORxNKB44z",
+        "version": 1
+      },
       "options": {
-        "alertName": "",
+        "alertName": "Redis",
         "dashboardAlerts": false,
         "dashboardTitle": "",
         "maxItems": 10,
@@ -268,7 +342,7 @@
         "tags": []
       },
       "pluginVersion": "8.4.7",
-      "title": "Redis Alerts (in progress...)",
+      "title": "Prod Redis Alerts",
       "type": "alertlist"
     },
     {
@@ -331,7 +405,7 @@
         "h": 11,
         "w": 8,
         "x": 0,
-        "y": 6
+        "y": 9
       },
       "id": 2,
       "options": {
@@ -436,7 +510,7 @@
         "h": 11,
         "w": 8,
         "x": 8,
-        "y": 6
+        "y": 11
       },
       "id": 22,
       "options": {
@@ -537,7 +611,7 @@
         "h": 11,
         "w": 8,
         "x": 16,
-        "y": 6
+        "y": 11
       },
       "id": 24,
       "options": {
@@ -805,13 +879,38 @@
           },
           "unit": "short"
         },
-        "overrides": []
+        "overrides": [
+          {
+            "__systemRef": "hideSeriesFrom",
+            "matcher": {
+              "id": "byNames",
+              "options": {
+                "mode": "exclude",
+                "names": [
+                  "CPUUtilization_Average"
+                ],
+                "prefix": "All except:",
+                "readOnly": true
+              }
+            },
+            "properties": [
+              {
+                "id": "custom.hideFrom",
+                "value": {
+                  "legend": false,
+                  "tooltip": false,
+                  "viz": true
+                }
+              }
+            ]
+          }
+        ]
       },
       "gridPos": {
         "h": 11,
         "w": 8,
         "x": 0,
-        "y": 17
+        "y": 20
       },
       "id": 4,
       "options": {
@@ -938,7 +1037,7 @@
         "h": 11,
         "w": 8,
         "x": 8,
-        "y": 17
+        "y": 22
       },
       "id": 28,
       "options": {
@@ -1040,7 +1139,7 @@
         "h": 11,
         "w": 8,
         "x": 16,
-        "y": 17
+        "y": 22
       },
       "id": 26,
       "options": {
@@ -1140,7 +1239,7 @@
         "h": 11,
         "w": 8,
         "x": 0,
-        "y": 28
+        "y": 31
       },
       "id": 6,
       "options": {
@@ -1266,7 +1365,7 @@
         "h": 11,
         "w": 8,
         "x": 8,
-        "y": 28
+        "y": 33
       },
       "id": 30,
       "options": {
@@ -1392,7 +1491,7 @@
         "h": 11,
         "w": 8,
         "x": 16,
-        "y": 28
+        "y": 33
       },
       "id": 64,
       "options": {
@@ -1494,7 +1593,7 @@
         "h": 11,
         "w": 8,
         "x": 0,
-        "y": 39
+        "y": 42
       },
       "id": 8,
       "options": {
@@ -1620,7 +1719,7 @@
         "h": 11,
         "w": 8,
         "x": 8,
-        "y": 39
+        "y": 44
       },
       "id": 32,
       "options": {
@@ -1721,522 +1820,7 @@
         "h": 11,
         "w": 8,
         "x": 16,
-        "y": 39
-      },
-      "id": 66,
-      "options": {
-        "legend": {
-          "calcs": [],
-          "displayMode": "list",
-          "placement": "bottom"
-        },
-        "tooltip": {
-          "mode": "single",
-          "sort": "none"
-        }
-      },
-      "targets": [
-        {
-          "alias": "",
-          "datasource": {
-            "type": "cloudwatch",
-            "uid": "${cwsource}"
-          },
-          "dimensions": {
-            "CacheClusterId": "$redis_0001_001"
-          },
-          "expression": "",
-          "hide": true,
-          "id": "",
-          "matchExact": true,
-          "metricEditorMode": 0,
-          "metricName": "NetworkBytesIn",
-          "metricQueryType": 0,
-          "namespace": "AWS/ElastiCache",
-          "period": "",
-          "queryMode": "Metrics",
-          "refId": "A",
-          "region": "default",
-          "sqlExpression": "",
-          "statistic": "Sum"
-        },
-        {
-          "alias": "",
-          "datasource": {
-            "type": "cloudwatch",
-            "uid": "${cwsource}"
-          },
-          "dimensions": {
-            "CacheClusterId": "$redis_0001_001"
-          },
-          "expression": "",
-          "hide": true,
-          "id": "",
-          "matchExact": true,
-          "metricEditorMode": 0,
-          "metricName": "NetworkBytesOut",
-          "metricQueryType": 0,
-          "namespace": "AWS/ElastiCache",
-          "period": "",
-          "queryMode": "Metrics",
-          "refId": "B",
-          "region": "default",
-          "sqlExpression": "",
-          "statistic": "Sum"
-        },
-        {
-          "alias": "",
-          "datasource": {
-            "type": "cloudwatch",
-            "uid": "${cwsource}"
-          },
-          "dimensions": {
-            "CacheClusterId": "$redis_0002_001"
-          },
-          "expression": "",
-          "hide": true,
-          "id": "",
-          "matchExact": true,
-          "metricEditorMode": 0,
-          "metricName": "NetworkBytesIn",
-          "metricQueryType": 0,
-          "namespace": "AWS/ElastiCache",
-          "period": "",
-          "queryMode": "Metrics",
-          "refId": "C",
-          "region": "default",
-          "sqlExpression": "",
-          "statistic": "Sum"
-        },
-        {
-          "alias": "",
-          "datasource": {
-            "type": "cloudwatch",
-            "uid": "${cwsource}"
-          },
-          "dimensions": {
-            "CacheClusterId": "$redis_0002_001"
-          },
-          "expression": "",
-          "hide": true,
-          "id": "",
-          "matchExact": true,
-          "metricEditorMode": 0,
-          "metricName": "NetworkBytesOut",
-          "metricQueryType": 0,
-          "namespace": "AWS/ElastiCache",
-          "period": "",
-          "queryMode": "Metrics",
-          "refId": "G",
-          "region": "default",
-          "sqlExpression": "",
-          "statistic": "Sum"
-        },
-        {
-          "alias": "",
-          "datasource": {
-            "type": "cloudwatch",
-            "uid": "${cwsource}"
-          },
-          "dimensions": {
-            "CacheClusterId": "$redis_0003_001"
-          },
-          "expression": "",
-          "hide": true,
-          "id": "",
-          "matchExact": true,
-          "metricEditorMode": 0,
-          "metricName": "NetworkBytesIn",
-          "metricQueryType": 0,
-          "namespace": "AWS/ElastiCache",
-          "period": "",
-          "queryMode": "Metrics",
-          "refId": "D",
-          "region": "default",
-          "sqlExpression": "",
-          "statistic": "Sum"
-        },
-        {
-          "alias": "",
-          "datasource": {
-            "type": "cloudwatch",
-            "uid": "${cwsource}"
-          },
-          "dimensions": {
-            "CacheClusterId": "$redis_0003_001"
-          },
-          "expression": "",
-          "hide": true,
-          "id": "",
-          "matchExact": true,
-          "metricEditorMode": 0,
-          "metricName": "NetworkBytesOut",
-          "metricQueryType": 0,
-          "namespace": "AWS/ElastiCache",
-          "period": "",
-          "queryMode": "Metrics",
-          "refId": "H",
-          "region": "default",
-          "sqlExpression": "",
-          "statistic": "Sum"
-        },
-        {
-          "alias": "",
-          "datasource": {
-            "type": "cloudwatch",
-            "uid": "${cwsource}"
-          },
-          "dimensions": {
-            "CacheClusterId": "$redis_0004_001"
-          },
-          "expression": "",
-          "hide": true,
-          "id": "",
-          "matchExact": true,
-          "metricEditorMode": 0,
-          "metricName": "NetworkBytesIn",
-          "metricQueryType": 0,
-          "namespace": "AWS/ElastiCache",
-          "period": "",
-          "queryMode": "Metrics",
-          "refId": "E",
-          "region": "default",
-          "sqlExpression": "",
-          "statistic": "Sum"
-        },
-        {
-          "alias": "",
-          "datasource": {
-            "type": "cloudwatch",
-            "uid": "${cwsource}"
-          },
-          "dimensions": {
-            "CacheClusterId": "$redis_0004_001"
-          },
-          "expression": "",
-          "hide": true,
-          "id": "",
-          "matchExact": true,
-          "metricEditorMode": 0,
-          "metricName": "NetworkBytesOut",
-          "metricQueryType": 0,
-          "namespace": "AWS/ElastiCache",
-          "period": "",
-          "queryMode": "Metrics",
-          "refId": "I",
-          "region": "default",
-          "sqlExpression": "",
-          "statistic": "Sum"
-        },
-        {
-          "conditions": [],
-          "datasource": {
-            "type": "__expr__",
-            "uid": "__expr__"
-          },
-          "expression": "$A + $B",
-          "hide": false,
-          "refId": "M",
-          "type": "math"
-        },
-        {
-          "datasource": {
-            "type": "__expr__",
-            "uid": "__expr__"
-          },
-          "expression": "$C + $G",
-          "hide": false,
-          "refId": "N",
-          "type": "math"
-        },
-        {
-          "datasource": {
-            "type": "__expr__",
-            "uid": "__expr__"
-          },
-          "expression": "$D + $H",
-          "hide": false,
-          "refId": "O",
-          "type": "math"
-        },
-        {
-          "datasource": {
-            "type": "__expr__",
-            "uid": "__expr__"
-          },
-          "expression": "$E + $I",
-          "hide": false,
-          "refId": "F",
-          "type": "math"
-        }
-      ],
-      "title": "NetworkBytesTotal: SUM per 1 min ( Up to 10 Gbit/s ~= 1.5Gbit/s baseline = 150MB/s in+out traffic = 9GB/min)",
-      "type": "timeseries"
-    },
-    {
-      "datasource": {
-        "type": "cloudwatch",
-        "uid": "${cwsource}"
-      },
-      "fieldConfig": {
-        "defaults": {
-          "color": {
-            "mode": "palette-classic"
-          },
-          "custom": {
-            "axisLabel": "",
-            "axisPlacement": "auto",
-            "barAlignment": 0,
-            "drawStyle": "line",
-            "fillOpacity": 10,
-            "gradientMode": "none",
-            "hideFrom": {
-              "legend": false,
-              "tooltip": false,
-              "viz": false
-            },
-            "lineInterpolation": "linear",
-            "lineWidth": 1,
-            "pointSize": 5,
-            "scaleDistribution": {
-              "type": "linear"
-            },
-            "showPoints": "never",
-            "spanNulls": true,
-            "stacking": {
-              "group": "A",
-              "mode": "none"
-            },
-            "thresholdsStyle": {
-              "mode": "off"
-            }
-          },
-          "mappings": [],
-          "thresholds": {
-            "mode": "absolute",
-            "steps": [
-              {
-                "color": "green",
-                "value": null
-              },
-              {
-                "color": "red",
-                "value": 80
-              }
-            ]
-          },
-          "unit": "short"
-        },
-        "overrides": []
-      },
-      "gridPos": {
-        "h": 11,
-        "w": 8,
-        "x": 0,
-        "y": 50
-      },
-      "id": 10,
-      "options": {
-        "legend": {
-          "calcs": [],
-          "displayMode": "list",
-          "placement": "bottom"
-        },
-        "tooltip": {
-          "mode": "multi",
-          "sort": "none"
-        }
-      },
-      "pluginVersion": "8.4.7",
-      "targets": [
-        {
-          "alias": "",
-          "datasource": {
-            "type": "cloudwatch",
-            "uid": "${cwsource}"
-          },
-          "dimensions": {
-            "InstanceId": "$instance_id"
-          },
-          "expression": "",
-          "id": "",
-          "matchExact": true,
-          "metricEditorMode": 0,
-          "metricName": "EBSWriteBytes",
-          "metricQueryType": 0,
-          "namespace": "AWS/EC2",
-          "period": "",
-          "queryMode": "Metrics",
-          "refId": "A",
-          "region": "default",
-          "sqlExpression": "",
-          "statistic": "Average"
-        }
-      ],
-      "title": "EC2 EBSWriteBytes: Average",
-      "type": "timeseries"
-    },
-    {
-      "datasource": {
-        "type": "cloudwatch",
-        "uid": "${cwsource}"
-      },
-      "fieldConfig": {
-        "defaults": {
-          "color": {
-            "mode": "palette-classic"
-          },
-          "custom": {
-            "axisLabel": "",
-            "axisPlacement": "auto",
-            "barAlignment": 0,
-            "drawStyle": "line",
-            "fillOpacity": 0,
-            "gradientMode": "none",
-            "hideFrom": {
-              "legend": false,
-              "tooltip": false,
-              "viz": false
-            },
-            "lineInterpolation": "linear",
-            "lineWidth": 1,
-            "pointSize": 5,
-            "scaleDistribution": {
-              "type": "linear"
-            },
-            "showPoints": "auto",
-            "spanNulls": false,
-            "stacking": {
-              "group": "A",
-              "mode": "none"
-            },
-            "thresholdsStyle": {
-              "mode": "off"
-            }
-          },
-          "mappings": [],
-          "thresholds": {
-            "mode": "absolute",
-            "steps": [
-              {
-                "color": "green",
-                "value": null
-              },
-              {
-                "color": "red",
-                "value": 80
-              }
-            ]
-          }
-        },
-        "overrides": []
-      },
-      "gridPos": {
-        "h": 11,
-        "w": 8,
-        "x": 8,
-        "y": 50
-      },
-      "id": 34,
-      "options": {
-        "legend": {
-          "calcs": [],
-          "displayMode": "list",
-          "placement": "bottom"
-        },
-        "tooltip": {
-          "mode": "single",
-          "sort": "none"
-        }
-      },
-      "targets": [
-        {
-          "alias": "",
-          "datasource": {
-            "type": "cloudwatch",
-            "uid": "${cwsource}"
-          },
-          "dimensions": {
-            "DBInstanceIdentifier": "$rds_id"
-          },
-          "expression": "",
-          "id": "",
-          "matchExact": true,
-          "metricEditorMode": 0,
-          "metricName": "WriteIOPS",
-          "metricQueryType": 0,
-          "namespace": "AWS/RDS",
-          "period": "",
-          "queryMode": "Metrics",
-          "refId": "A",
-          "region": "default",
-          "sqlExpression": "",
-          "statistic": "Average"
-        }
-      ],
-      "title": "RDS WriteIOPS: Average",
-      "type": "timeseries"
-    },
-    {
-      "datasource": {
-        "type": "cloudwatch",
-        "uid": "${cwsource}"
-      },
-      "fieldConfig": {
-        "defaults": {
-          "color": {
-            "mode": "palette-classic"
-          },
-          "custom": {
-            "axisLabel": "",
-            "axisPlacement": "auto",
-            "barAlignment": 0,
-            "drawStyle": "line",
-            "fillOpacity": 0,
-            "gradientMode": "none",
-            "hideFrom": {
-              "legend": false,
-              "tooltip": false,
-              "viz": false
-            },
-            "lineInterpolation": "linear",
-            "lineWidth": 1,
-            "pointSize": 5,
-            "scaleDistribution": {
-              "type": "linear"
-            },
-            "showPoints": "auto",
-            "spanNulls": false,
-            "stacking": {
-              "group": "A",
-              "mode": "none"
-            },
-            "thresholdsStyle": {
-              "mode": "off"
-            }
-          },
-          "mappings": [],
-          "thresholds": {
-            "mode": "absolute",
-            "steps": [
-              {
-                "color": "green",
-                "value": null
-              },
-              {
-                "color": "red",
-                "value": 80
-              }
-            ]
-          }
-        },
-        "overrides": []
-      },
-      "gridPos": {
-        "h": 11,
-        "w": 8,
-        "x": 16,
-        "y": 50
+        "y": 44
       },
       "id": 68,
       "options": {
@@ -2414,9 +1998,9 @@
         "h": 11,
         "w": 8,
         "x": 0,
-        "y": 61
+        "y": 53
       },
-      "id": 12,
+      "id": 10,
       "options": {
         "legend": {
           "calcs": [],
@@ -2443,7 +2027,7 @@
           "id": "",
           "matchExact": true,
           "metricEditorMode": 0,
-          "metricName": "EBSReadBytes",
+          "metricName": "EBSWriteBytes",
           "metricQueryType": 0,
           "namespace": "AWS/EC2",
           "period": "",
@@ -2454,7 +2038,7 @@
           "statistic": "Average"
         }
       ],
-      "title": "EC2 EBSReadBytes: Average",
+      "title": "EC2 EBSWriteBytes: Average",
       "type": "timeseries"
     },
     {
@@ -2516,9 +2100,9 @@
         "h": 11,
         "w": 8,
         "x": 8,
-        "y": 61
+        "y": 55
       },
-      "id": 48,
+      "id": 34,
       "options": {
         "legend": {
           "calcs": [],
@@ -2544,7 +2128,7 @@
           "id": "",
           "matchExact": true,
           "metricEditorMode": 0,
-          "metricName": "WriteLatency",
+          "metricName": "WriteIOPS",
           "metricQueryType": 0,
           "namespace": "AWS/RDS",
           "period": "",
@@ -2552,10 +2136,10 @@
           "refId": "A",
           "region": "default",
           "sqlExpression": "",
-          "statistic": "Maximum"
+          "statistic": "Average"
         }
       ],
-      "title": "RDS WriteLatency: Maximum",
+      "title": "RDS WriteIOPS: Average",
       "type": "timeseries"
     },
     {
@@ -2617,7 +2201,7 @@
         "h": 11,
         "w": 8,
         "x": 16,
-        "y": 61
+        "y": 55
       },
       "id": 70,
       "options": {
@@ -2795,9 +2379,9 @@
         "h": 11,
         "w": 8,
         "x": 0,
-        "y": 72
+        "y": 64
       },
-      "id": 14,
+      "id": 12,
       "options": {
         "legend": {
           "calcs": [],
@@ -2824,7 +2408,7 @@
           "id": "",
           "matchExact": true,
           "metricEditorMode": 0,
-          "metricName": "EBSWriteOps",
+          "metricName": "EBSReadBytes",
           "metricQueryType": 0,
           "namespace": "AWS/EC2",
           "period": "",
@@ -2835,7 +2419,7 @@
           "statistic": "Average"
         }
       ],
-      "title": "EC2 EBSWriteOps: Average",
+      "title": "EC2 EBSReadBytes: Average",
       "type": "timeseries"
     },
     {
@@ -2897,9 +2481,9 @@
         "h": 11,
         "w": 8,
         "x": 8,
-        "y": 72
+        "y": 66
       },
-      "id": 50,
+      "id": 48,
       "options": {
         "legend": {
           "calcs": [],
@@ -2925,7 +2509,7 @@
           "id": "",
           "matchExact": true,
           "metricEditorMode": 0,
-          "metricName": "WriteThroughput",
+          "metricName": "WriteLatency",
           "metricQueryType": 0,
           "namespace": "AWS/RDS",
           "period": "",
@@ -2933,10 +2517,10 @@
           "refId": "A",
           "region": "default",
           "sqlExpression": "",
-          "statistic": "Average"
+          "statistic": "Maximum"
         }
       ],
-      "title": "RDS WriteThroughput: Average",
+      "title": "RDS WriteLatency: Maximum",
       "type": "timeseries"
     },
     {
@@ -2998,7 +2582,7 @@
         "h": 11,
         "w": 8,
         "x": 16,
-        "y": 72
+        "y": 66
       },
       "id": 72,
       "options": {
@@ -3199,9 +2783,9 @@
         "h": 11,
         "w": 8,
         "x": 0,
-        "y": 83
+        "y": 75
       },
-      "id": 18,
+      "id": 14,
       "options": {
         "legend": {
           "calcs": [],
@@ -3228,7 +2812,7 @@
           "id": "",
           "matchExact": true,
           "metricEditorMode": 0,
-          "metricName": "EBSReadOps",
+          "metricName": "EBSWriteOps",
           "metricQueryType": 0,
           "namespace": "AWS/EC2",
           "period": "",
@@ -3239,7 +2823,7 @@
           "statistic": "Average"
         }
       ],
-      "title": "EC2 EBSReadOps: Average",
+      "title": "EC2 EBSWriteOps: Average",
       "type": "timeseries"
     },
     {
@@ -3301,9 +2885,9 @@
         "h": 11,
         "w": 8,
         "x": 8,
-        "y": 83
+        "y": 77
       },
-      "id": 52,
+      "id": 50,
       "options": {
         "legend": {
           "calcs": [],
@@ -3329,7 +2913,7 @@
           "id": "",
           "matchExact": true,
           "metricEditorMode": 0,
-          "metricName": "BinLogDiskUsage",
+          "metricName": "WriteThroughput",
           "metricQueryType": 0,
           "namespace": "AWS/RDS",
           "period": "",
@@ -3340,7 +2924,7 @@
           "statistic": "Average"
         }
       ],
-      "title": "RDS BinLogDiskUsage",
+      "title": "RDS WriteThroughput: Average",
       "type": "timeseries"
     },
     {
@@ -3402,7 +2986,7 @@
         "h": 11,
         "w": 8,
         "x": 16,
-        "y": 83
+        "y": 77
       },
       "id": 78,
       "options": {
@@ -3535,7 +3119,7 @@
             "axisPlacement": "auto",
             "barAlignment": 0,
             "drawStyle": "line",
-            "fillOpacity": 0,
+            "fillOpacity": 10,
             "gradientMode": "none",
             "hideFrom": {
               "legend": false,
@@ -3548,8 +3132,8 @@
             "scaleDistribution": {
               "type": "linear"
             },
-            "showPoints": "auto",
-            "spanNulls": false,
+            "showPoints": "never",
+            "spanNulls": true,
             "stacking": {
               "group": "A",
               "mode": "none"
@@ -3577,12 +3161,12 @@
         "overrides": []
       },
       "gridPos": {
-        "h": 6,
-        "w": 4,
+        "h": 11,
+        "w": 8,
         "x": 0,
-        "y": 94
+        "y": 86
       },
-      "id": 20,
+      "id": 18,
       "options": {
         "legend": {
           "calcs": [],
@@ -3590,7 +3174,7 @@
           "placement": "bottom"
         },
         "tooltip": {
-          "mode": "single",
+          "mode": "multi",
           "sort": "none"
         }
       },
@@ -3603,24 +3187,24 @@
             "uid": "${cwsource}"
           },
           "dimensions": {
-            "BucketName": "mdnbucket001"
+            "InstanceId": "$instance_id"
           },
           "expression": "",
           "id": "",
           "matchExact": true,
           "metricEditorMode": 0,
-          "metricName": "BucketSizeBytes",
+          "metricName": "EBSReadOps",
           "metricQueryType": 0,
-          "namespace": "AWS/S3",
+          "namespace": "AWS/EC2",
           "period": "",
           "queryMode": "Metrics",
           "refId": "A",
           "region": "default",
           "sqlExpression": "",
-          "statistic": "Maximum"
+          "statistic": "Average"
         }
       ],
-      "title": "s3 mdnbucket001 total bucket size",
+      "title": "EC2 EBSReadOps: Average",
       "type": "timeseries"
     },
     {
@@ -3682,9 +3266,9 @@
         "h": 11,
         "w": 8,
         "x": 8,
-        "y": 94
+        "y": 88
       },
-      "id": 54,
+      "id": 52,
       "options": {
         "legend": {
           "calcs": [],
@@ -3710,7 +3294,7 @@
           "id": "",
           "matchExact": true,
           "metricEditorMode": 0,
-          "metricName": "ReadLatency",
+          "metricName": "BinLogDiskUsage",
           "metricQueryType": 0,
           "namespace": "AWS/RDS",
           "period": "",
@@ -3719,33 +3303,9 @@
           "region": "default",
           "sqlExpression": "",
           "statistic": "Average"
-        },
-        {
-          "alias": "",
-          "datasource": {
-            "type": "cloudwatch",
-            "uid": "${cwsource}"
-          },
-          "dimensions": {
-            "DBInstanceIdentifier": "$rds_id"
-          },
-          "expression": "",
-          "hide": false,
-          "id": "",
-          "matchExact": true,
-          "metricEditorMode": 0,
-          "metricName": "WriteLatency",
-          "metricQueryType": 0,
-          "namespace": "AWS/RDS",
-          "period": "",
-          "queryMode": "Metrics",
-          "refId": "B",
-          "region": "default",
-          "sqlExpression": "",
-          "statistic": "Average"
         }
       ],
-      "title": "RDS Read/WriteLatency",
+      "title": "RDS BinLogDiskUsage",
       "type": "timeseries"
     },
     {
@@ -3807,7 +3367,7 @@
         "h": 11,
         "w": 8,
         "x": 16,
-        "y": 94
+        "y": 88
       },
       "id": 74,
       "options": {
@@ -3931,7 +3491,7 @@
         "h": 1,
         "w": 8,
         "x": 0,
-        "y": 100
+        "y": 97
       },
       "id": 94,
       "options": {
@@ -4001,7 +3561,7 @@
         "h": 9,
         "w": 8,
         "x": 0,
-        "y": 101
+        "y": 98
       },
       "id": 96,
       "options": {
@@ -4102,9 +3662,9 @@
         "h": 11,
         "w": 8,
         "x": 8,
-        "y": 105
+        "y": 99
       },
-      "id": 56,
+      "id": 54,
       "options": {
         "legend": {
           "calcs": [],
@@ -4130,7 +3690,7 @@
           "id": "",
           "matchExact": true,
           "metricEditorMode": 0,
-          "metricName": "ReadThroughput",
+          "metricName": "ReadLatency",
           "metricQueryType": 0,
           "namespace": "AWS/RDS",
           "period": "",
@@ -4139,9 +3699,33 @@
           "region": "default",
           "sqlExpression": "",
           "statistic": "Average"
+        },
+        {
+          "alias": "",
+          "datasource": {
+            "type": "cloudwatch",
+            "uid": "${cwsource}"
+          },
+          "dimensions": {
+            "DBInstanceIdentifier": "$rds_id"
+          },
+          "expression": "",
+          "hide": false,
+          "id": "",
+          "matchExact": true,
+          "metricEditorMode": 0,
+          "metricName": "WriteLatency",
+          "metricQueryType": 0,
+          "namespace": "AWS/RDS",
+          "period": "",
+          "queryMode": "Metrics",
+          "refId": "B",
+          "region": "default",
+          "sqlExpression": "",
+          "statistic": "Average"
         }
       ],
-      "title": "RDS ReadThroughput",
+      "title": "RDS Read/WriteLatency",
       "type": "timeseries"
     },
     {
@@ -4200,7 +3784,7 @@
         "h": 11,
         "w": 8,
         "x": 16,
-        "y": 105
+        "y": 99
       },
       "id": 76,
       "options": {
@@ -4299,7 +3883,7 @@
         "h": 9,
         "w": 8,
         "x": 0,
-        "y": 110
+        "y": 107
       },
       "id": 98,
       "options": {
@@ -4400,9 +3984,9 @@
         "h": 11,
         "w": 8,
         "x": 8,
-        "y": 116
+        "y": 110
       },
-      "id": 58,
+      "id": 56,
       "options": {
         "legend": {
           "calcs": [],
@@ -4428,7 +4012,7 @@
           "id": "",
           "matchExact": true,
           "metricEditorMode": 0,
-          "metricName": "WriteThroughput",
+          "metricName": "ReadThroughput",
           "metricQueryType": 0,
           "namespace": "AWS/RDS",
           "period": "",
@@ -4439,7 +4023,7 @@
           "statistic": "Average"
         }
       ],
-      "title": "RDS WriteThroughput",
+      "title": "RDS ReadThroughput",
       "type": "timeseries"
     },
     {
@@ -4501,7 +4085,7 @@
         "h": 8,
         "w": 8,
         "x": 16,
-        "y": 116
+        "y": 110
       },
       "id": 80,
       "options": {
@@ -4700,7 +4284,7 @@
         "h": 9,
         "w": 8,
         "x": 0,
-        "y": 119
+        "y": 116
       },
       "id": 100,
       "options": {
@@ -4801,7 +4385,7 @@
         "h": 9,
         "w": 8,
         "x": 16,
-        "y": 124
+        "y": 118
       },
       "id": 82,
       "options": {
@@ -4997,12 +4581,12 @@
         "overrides": []
       },
       "gridPos": {
-        "h": 10,
+        "h": 11,
         "w": 8,
         "x": 8,
-        "y": 127
+        "y": 121
       },
-      "id": 60,
+      "id": 58,
       "options": {
         "legend": {
           "calcs": [],
@@ -5028,7 +4612,7 @@
           "id": "",
           "matchExact": true,
           "metricEditorMode": 0,
-          "metricName": "NetworkReceiveThroughput",
+          "metricName": "WriteThroughput",
           "metricQueryType": 0,
           "namespace": "AWS/RDS",
           "period": "",
@@ -5037,33 +4621,9 @@
           "region": "default",
           "sqlExpression": "",
           "statistic": "Average"
-        },
-        {
-          "alias": "",
-          "datasource": {
-            "type": "cloudwatch",
-            "uid": "${cwsource}"
-          },
-          "dimensions": {
-            "DBInstanceIdentifier": "$rds_id"
-          },
-          "expression": "",
-          "hide": false,
-          "id": "",
-          "matchExact": true,
-          "metricEditorMode": 0,
-          "metricName": "NetworkTransmitThroughput",
-          "metricQueryType": 0,
-          "namespace": "AWS/RDS",
-          "period": "",
-          "queryMode": "Metrics",
-          "refId": "B",
-          "region": "default",
-          "sqlExpression": "",
-          "statistic": "Average"
         }
       ],
-      "title": "RDS NetworkReceiveThroughput + NetworkTransmitThroughput",
+      "title": "RDS WriteThroughput",
       "type": "timeseries"
     },
     {
@@ -5125,7 +4685,7 @@
         "h": 10,
         "w": 8,
         "x": 0,
-        "y": 128
+        "y": 125
       },
       "id": 102,
       "options": {
@@ -5250,7 +4810,7 @@
         "h": 9,
         "w": 8,
         "x": 16,
-        "y": 133
+        "y": 127
       },
       "id": 84,
       "options": {
@@ -5420,12 +4980,12 @@
         "overrides": []
       },
       "gridPos": {
-        "h": 6,
-        "w": 4,
+        "h": 10,
+        "w": 8,
         "x": 8,
-        "y": 137
+        "y": 132
       },
-      "id": 62,
+      "id": 60,
       "options": {
         "legend": {
           "calcs": [],
@@ -5451,7 +5011,7 @@
           "id": "",
           "matchExact": true,
           "metricEditorMode": 0,
-          "metricName": "FreeStorageSpace",
+          "metricName": "NetworkReceiveThroughput",
           "metricQueryType": 0,
           "namespace": "AWS/RDS",
           "period": "",
@@ -5459,10 +5019,34 @@
           "refId": "A",
           "region": "default",
           "sqlExpression": "",
-          "statistic": "Minimum"
+          "statistic": "Average"
+        },
+        {
+          "alias": "",
+          "datasource": {
+            "type": "cloudwatch",
+            "uid": "${cwsource}"
+          },
+          "dimensions": {
+            "DBInstanceIdentifier": "$rds_id"
+          },
+          "expression": "",
+          "hide": false,
+          "id": "",
+          "matchExact": true,
+          "metricEditorMode": 0,
+          "metricName": "NetworkTransmitThroughput",
+          "metricQueryType": 0,
+          "namespace": "AWS/RDS",
+          "period": "",
+          "queryMode": "Metrics",
+          "refId": "B",
+          "region": "default",
+          "sqlExpression": "",
+          "statistic": "Average"
         }
       ],
-      "title": "RDS FreeStorageSpace: Minimum",
+      "title": "RDS NetworkReceiveThroughput + NetworkTransmitThroughput",
       "type": "timeseries"
     },
     {
@@ -5524,7 +5108,7 @@
         "h": 10,
         "w": 8,
         "x": 0,
-        "y": 138
+        "y": 135
       },
       "id": 104,
       "options": {
@@ -5625,7 +5209,7 @@
         "h": 10,
         "w": 8,
         "x": 16,
-        "y": 142
+        "y": 136
       },
       "id": 86,
       "options": {
@@ -5795,10 +5379,214 @@
         "overrides": []
       },
       "gridPos": {
+        "h": 6,
+        "w": 4,
+        "x": 8,
+        "y": 142
+      },
+      "id": 62,
+      "options": {
+        "legend": {
+          "calcs": [],
+          "displayMode": "list",
+          "placement": "bottom"
+        },
+        "tooltip": {
+          "mode": "single",
+          "sort": "none"
+        }
+      },
+      "targets": [
+        {
+          "alias": "",
+          "datasource": {
+            "type": "cloudwatch",
+            "uid": "${cwsource}"
+          },
+          "dimensions": {
+            "DBInstanceIdentifier": "$rds_id"
+          },
+          "expression": "",
+          "id": "",
+          "matchExact": true,
+          "metricEditorMode": 0,
+          "metricName": "FreeStorageSpace",
+          "metricQueryType": 0,
+          "namespace": "AWS/RDS",
+          "period": "",
+          "queryMode": "Metrics",
+          "refId": "A",
+          "region": "default",
+          "sqlExpression": "",
+          "statistic": "Minimum"
+        }
+      ],
+      "title": "RDS FreeStorageSpace: Minimum",
+      "type": "timeseries"
+    },
+    {
+      "datasource": {
+        "type": "cloudwatch",
+        "uid": "${cwsource}"
+      },
+      "fieldConfig": {
+        "defaults": {
+          "color": {
+            "mode": "palette-classic"
+          },
+          "custom": {
+            "axisLabel": "",
+            "axisPlacement": "auto",
+            "barAlignment": 0,
+            "drawStyle": "line",
+            "fillOpacity": 0,
+            "gradientMode": "none",
+            "hideFrom": {
+              "legend": false,
+              "tooltip": false,
+              "viz": false
+            },
+            "lineInterpolation": "linear",
+            "lineWidth": 1,
+            "pointSize": 5,
+            "scaleDistribution": {
+              "type": "linear"
+            },
+            "showPoints": "auto",
+            "spanNulls": false,
+            "stacking": {
+              "group": "A",
+              "mode": "none"
+            },
+            "thresholdsStyle": {
+              "mode": "off"
+            }
+          },
+          "mappings": [],
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "green",
+                "value": null
+              },
+              {
+                "color": "red",
+                "value": 80
+              }
+            ]
+          },
+          "unit": "short"
+        },
+        "overrides": []
+      },
+      "gridPos": {
+        "h": 6,
+        "w": 4,
+        "x": 12,
+        "y": 142
+      },
+      "id": 20,
+      "options": {
+        "legend": {
+          "calcs": [],
+          "displayMode": "list",
+          "placement": "bottom"
+        },
+        "tooltip": {
+          "mode": "single",
+          "sort": "none"
+        }
+      },
+      "pluginVersion": "8.4.7",
+      "targets": [
+        {
+          "alias": "",
+          "datasource": {
+            "type": "cloudwatch",
+            "uid": "${cwsource}"
+          },
+          "dimensions": {
+            "BucketName": "mdnbucket001"
+          },
+          "expression": "",
+          "id": "",
+          "matchExact": true,
+          "metricEditorMode": 0,
+          "metricName": "BucketSizeBytes",
+          "metricQueryType": 0,
+          "namespace": "AWS/S3",
+          "period": "",
+          "queryMode": "Metrics",
+          "refId": "A",
+          "region": "default",
+          "sqlExpression": "",
+          "statistic": "Average"
+        }
+      ],
+      "title": "s3 mdnbucket001 total bucket size",
+      "type": "timeseries"
+    },
+    {
+      "datasource": {
+        "type": "cloudwatch",
+        "uid": "${cwsource}"
+      },
+      "fieldConfig": {
+        "defaults": {
+          "color": {
+            "mode": "palette-classic"
+          },
+          "custom": {
+            "axisLabel": "",
+            "axisPlacement": "auto",
+            "barAlignment": 0,
+            "drawStyle": "line",
+            "fillOpacity": 0,
+            "gradientMode": "none",
+            "hideFrom": {
+              "legend": false,
+              "tooltip": false,
+              "viz": false
+            },
+            "lineInterpolation": "linear",
+            "lineWidth": 1,
+            "pointSize": 5,
+            "scaleDistribution": {
+              "type": "linear"
+            },
+            "showPoints": "auto",
+            "spanNulls": false,
+            "stacking": {
+              "group": "A",
+              "mode": "none"
+            },
+            "thresholdsStyle": {
+              "mode": "off"
+            }
+          },
+          "mappings": [],
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "green",
+                "value": null
+              },
+              {
+                "color": "red",
+                "value": 80
+              }
+            ]
+          }
+        },
+        "overrides": []
+      },
+      "gridPos": {
         "h": 9,
         "w": 8,
         "x": 0,
-        "y": 148
+        "y": 145
       },
       "id": 114,
       "options": {
@@ -5923,7 +5711,7 @@
         "h": 9,
         "w": 8,
         "x": 16,
-        "y": 152
+        "y": 146
       },
       "id": 88,
       "options": {
@@ -6096,7 +5884,7 @@
         "h": 10,
         "w": 8,
         "x": 0,
-        "y": 157
+        "y": 154
       },
       "id": 116,
       "options": {
@@ -6197,7 +5985,7 @@
         "h": 9,
         "w": 8,
         "x": 16,
-        "y": 161
+        "y": 155
       },
       "id": 90,
       "options": {
@@ -6374,7 +6162,7 @@
         "h": 9,
         "w": 8,
         "x": 0,
-        "y": 167
+        "y": 164
       },
       "id": 110,
       "options": {
@@ -6499,7 +6287,7 @@
         "h": 10,
         "w": 8,
         "x": 16,
-        "y": 170
+        "y": 164
       },
       "id": 92,
       "options": {
@@ -6676,7 +6464,7 @@
         "h": 9,
         "w": 8,
         "x": 0,
-        "y": 176
+        "y": 173
       },
       "id": 112,
       "options": {
@@ -6948,6 +6736,6 @@
   "timezone": "",
   "title": "Duty",
   "uid": "tuyzAH44k",
-  "version": 29,
+  "version": 45,
   "weekStart": ""
 }
