@@ -23,7 +23,7 @@
   "fiscalYearStartMonth": 0,
   "graphTooltip": 0,
   "id": 8,
-  "iteration": 1664914898837,
+  "iteration": 1665002672678,
   "links": [
     {
       "asDropdown": false,
@@ -186,7 +186,7 @@
     {
       "description": "",
       "gridPos": {
-        "h": 6,
+        "h": 7,
         "w": 8,
         "x": 0,
         "y": 3
@@ -240,7 +240,7 @@
     {
       "description": "",
       "gridPos": {
-        "h": 8,
+        "h": 7,
         "w": 8,
         "x": 8,
         "y": 3
@@ -294,7 +294,7 @@
     {
       "description": "",
       "gridPos": {
-        "h": 8,
+        "h": 7,
         "w": 8,
         "x": 16,
         "y": 3
@@ -360,8 +360,8 @@
             "axisPlacement": "auto",
             "barAlignment": 0,
             "drawStyle": "line",
-            "fillOpacity": 10,
-            "gradientMode": "none",
+            "fillOpacity": 12,
+            "gradientMode": "opacity",
             "hideFrom": {
               "legend": false,
               "tooltip": false,
@@ -405,7 +405,7 @@
         "h": 11,
         "w": 8,
         "x": 0,
-        "y": 9
+        "y": 10
       },
       "id": 2,
       "options": {
@@ -463,8 +463,8 @@
             "axisPlacement": "auto",
             "barAlignment": 0,
             "drawStyle": "line",
-            "fillOpacity": 0,
-            "gradientMode": "none",
+            "fillOpacity": 12,
+            "gradientMode": "opacity",
             "hideFrom": {
               "legend": false,
               "tooltip": false,
@@ -510,7 +510,7 @@
         "h": 11,
         "w": 8,
         "x": 8,
-        "y": 11
+        "y": 10
       },
       "id": 22,
       "options": {
@@ -567,8 +567,8 @@
             "axisPlacement": "auto",
             "barAlignment": 0,
             "drawStyle": "line",
-            "fillOpacity": 0,
-            "gradientMode": "none",
+            "fillOpacity": 12,
+            "gradientMode": "opacity",
             "hideFrom": {
               "legend": false,
               "tooltip": false,
@@ -611,7 +611,7 @@
         "h": 11,
         "w": 8,
         "x": 16,
-        "y": 11
+        "y": 10
       },
       "id": 24,
       "options": {
@@ -840,8 +840,8 @@
             "axisPlacement": "auto",
             "barAlignment": 0,
             "drawStyle": "line",
-            "fillOpacity": 10,
-            "gradientMode": "none",
+            "fillOpacity": 12,
+            "gradientMode": "opacity",
             "hideFrom": {
               "legend": false,
               "tooltip": false,
@@ -910,7 +910,7 @@
         "h": 11,
         "w": 8,
         "x": 0,
-        "y": 20
+        "y": 21
       },
       "id": 4,
       "options": {
@@ -992,8 +992,8 @@
             "axisPlacement": "auto",
             "barAlignment": 0,
             "drawStyle": "line",
-            "fillOpacity": 10,
-            "gradientMode": "none",
+            "fillOpacity": 12,
+            "gradientMode": "opacity",
             "hideFrom": {
               "legend": false,
               "tooltip": false,
@@ -1037,7 +1037,7 @@
         "h": 11,
         "w": 8,
         "x": 8,
-        "y": 22
+        "y": 21
       },
       "id": 28,
       "options": {
@@ -1095,8 +1095,8 @@
             "axisPlacement": "auto",
             "barAlignment": 0,
             "drawStyle": "line",
-            "fillOpacity": 0,
-            "gradientMode": "none",
+            "fillOpacity": 12,
+            "gradientMode": "opacity",
             "hideFrom": {
               "legend": false,
               "tooltip": false,
@@ -1139,7 +1139,7 @@
         "h": 11,
         "w": 8,
         "x": 16,
-        "y": 22
+        "y": 21
       },
       "id": 26,
       "options": {
@@ -1194,8 +1194,8 @@
             "axisPlacement": "auto",
             "barAlignment": 0,
             "drawStyle": "line",
-            "fillOpacity": 10,
-            "gradientMode": "none",
+            "fillOpacity": 12,
+            "gradientMode": "opacity",
             "hideFrom": {
               "legend": false,
               "tooltip": false,
@@ -1239,7 +1239,7 @@
         "h": 11,
         "w": 8,
         "x": 0,
-        "y": 31
+        "y": 32
       },
       "id": 6,
       "options": {
@@ -1321,8 +1321,8 @@
             "axisPlacement": "auto",
             "barAlignment": 0,
             "drawStyle": "line",
-            "fillOpacity": 0,
-            "gradientMode": "none",
+            "fillOpacity": 12,
+            "gradientMode": "opacity",
             "hideFrom": {
               "legend": false,
               "tooltip": false,
@@ -1365,7 +1365,7 @@
         "h": 11,
         "w": 8,
         "x": 8,
-        "y": 33
+        "y": 32
       },
       "id": 30,
       "options": {
@@ -1422,8 +1422,8 @@
             "axisPlacement": "auto",
             "barAlignment": 0,
             "drawStyle": "line",
-            "fillOpacity": 0,
-            "gradientMode": "none",
+            "fillOpacity": 12,
+            "gradientMode": "opacity",
             "hideFrom": {
               "legend": false,
               "tooltip": false,
@@ -1491,7 +1491,7 @@
         "h": 11,
         "w": 8,
         "x": 16,
-        "y": 33
+        "y": 32
       },
       "id": 64,
       "options": {
@@ -1548,8 +1548,8 @@
             "axisPlacement": "auto",
             "barAlignment": 0,
             "drawStyle": "line",
-            "fillOpacity": 10,
-            "gradientMode": "none",
+            "fillOpacity": 12,
+            "gradientMode": "opacity",
             "hideFrom": {
               "legend": false,
               "tooltip": false,
@@ -1593,7 +1593,7 @@
         "h": 11,
         "w": 8,
         "x": 0,
-        "y": 42
+        "y": 43
       },
       "id": 8,
       "options": {
@@ -1675,8 +1675,8 @@
             "axisPlacement": "auto",
             "barAlignment": 0,
             "drawStyle": "line",
-            "fillOpacity": 0,
-            "gradientMode": "none",
+            "fillOpacity": 12,
+            "gradientMode": "opacity",
             "hideFrom": {
               "legend": false,
               "tooltip": false,
@@ -1719,7 +1719,7 @@
         "h": 11,
         "w": 8,
         "x": 8,
-        "y": 44
+        "y": 43
       },
       "id": 32,
       "options": {
@@ -1776,8 +1776,8 @@
             "axisPlacement": "auto",
             "barAlignment": 0,
             "drawStyle": "line",
-            "fillOpacity": 0,
-            "gradientMode": "none",
+            "fillOpacity": 12,
+            "gradientMode": "opacity",
             "hideFrom": {
               "legend": false,
               "tooltip": false,
@@ -1820,7 +1820,7 @@
         "h": 11,
         "w": 8,
         "x": 16,
-        "y": 44
+        "y": 43
       },
       "id": 68,
       "options": {
@@ -1953,8 +1953,8 @@
             "axisPlacement": "auto",
             "barAlignment": 0,
             "drawStyle": "line",
-            "fillOpacity": 10,
-            "gradientMode": "none",
+            "fillOpacity": 12,
+            "gradientMode": "opacity",
             "hideFrom": {
               "legend": false,
               "tooltip": false,
@@ -1998,7 +1998,7 @@
         "h": 11,
         "w": 8,
         "x": 0,
-        "y": 53
+        "y": 54
       },
       "id": 10,
       "options": {
@@ -2056,8 +2056,8 @@
             "axisPlacement": "auto",
             "barAlignment": 0,
             "drawStyle": "line",
-            "fillOpacity": 0,
-            "gradientMode": "none",
+            "fillOpacity": 12,
+            "gradientMode": "opacity",
             "hideFrom": {
               "legend": false,
               "tooltip": false,
@@ -2100,7 +2100,7 @@
         "h": 11,
         "w": 8,
         "x": 8,
-        "y": 55
+        "y": 54
       },
       "id": 34,
       "options": {
@@ -2157,8 +2157,8 @@
             "axisPlacement": "auto",
             "barAlignment": 0,
             "drawStyle": "line",
-            "fillOpacity": 0,
-            "gradientMode": "none",
+            "fillOpacity": 12,
+            "gradientMode": "opacity",
             "hideFrom": {
               "legend": false,
               "tooltip": false,
@@ -2201,7 +2201,7 @@
         "h": 11,
         "w": 8,
         "x": 16,
-        "y": 55
+        "y": 54
       },
       "id": 70,
       "options": {
@@ -2334,8 +2334,8 @@
             "axisPlacement": "auto",
             "barAlignment": 0,
             "drawStyle": "line",
-            "fillOpacity": 10,
-            "gradientMode": "none",
+            "fillOpacity": 12,
+            "gradientMode": "opacity",
             "hideFrom": {
               "legend": false,
               "tooltip": false,
@@ -2379,7 +2379,7 @@
         "h": 11,
         "w": 8,
         "x": 0,
-        "y": 64
+        "y": 65
       },
       "id": 12,
       "options": {
@@ -2437,8 +2437,8 @@
             "axisPlacement": "auto",
             "barAlignment": 0,
             "drawStyle": "line",
-            "fillOpacity": 0,
-            "gradientMode": "none",
+            "fillOpacity": 12,
+            "gradientMode": "opacity",
             "hideFrom": {
               "legend": false,
               "tooltip": false,
@@ -2481,7 +2481,7 @@
         "h": 11,
         "w": 8,
         "x": 8,
-        "y": 66
+        "y": 65
       },
       "id": 48,
       "options": {
@@ -2538,8 +2538,8 @@
             "axisPlacement": "auto",
             "barAlignment": 0,
             "drawStyle": "line",
-            "fillOpacity": 0,
-            "gradientMode": "none",
+            "fillOpacity": 12,
+            "gradientMode": "opacity",
             "hideFrom": {
               "legend": false,
               "tooltip": false,
@@ -2582,7 +2582,7 @@
         "h": 11,
         "w": 8,
         "x": 16,
-        "y": 66
+        "y": 65
       },
       "id": 72,
       "options": {
@@ -2738,8 +2738,8 @@
             "axisPlacement": "auto",
             "barAlignment": 0,
             "drawStyle": "line",
-            "fillOpacity": 10,
-            "gradientMode": "none",
+            "fillOpacity": 12,
+            "gradientMode": "opacity",
             "hideFrom": {
               "legend": false,
               "tooltip": false,
@@ -2783,7 +2783,7 @@
         "h": 11,
         "w": 8,
         "x": 0,
-        "y": 75
+        "y": 76
       },
       "id": 14,
       "options": {
@@ -2841,8 +2841,8 @@
             "axisPlacement": "auto",
             "barAlignment": 0,
             "drawStyle": "line",
-            "fillOpacity": 0,
-            "gradientMode": "none",
+            "fillOpacity": 12,
+            "gradientMode": "opacity",
             "hideFrom": {
               "legend": false,
               "tooltip": false,
@@ -2885,7 +2885,7 @@
         "h": 11,
         "w": 8,
         "x": 8,
-        "y": 77
+        "y": 76
       },
       "id": 50,
       "options": {
@@ -2942,8 +2942,8 @@
             "axisPlacement": "auto",
             "barAlignment": 0,
             "drawStyle": "line",
-            "fillOpacity": 0,
-            "gradientMode": "none",
+            "fillOpacity": 12,
+            "gradientMode": "opacity",
             "hideFrom": {
               "legend": false,
               "tooltip": false,
@@ -2986,7 +2986,7 @@
         "h": 11,
         "w": 8,
         "x": 16,
-        "y": 77
+        "y": 76
       },
       "id": 78,
       "options": {
@@ -3119,8 +3119,8 @@
             "axisPlacement": "auto",
             "barAlignment": 0,
             "drawStyle": "line",
-            "fillOpacity": 10,
-            "gradientMode": "none",
+            "fillOpacity": 12,
+            "gradientMode": "opacity",
             "hideFrom": {
               "legend": false,
               "tooltip": false,
@@ -3164,7 +3164,7 @@
         "h": 11,
         "w": 8,
         "x": 0,
-        "y": 86
+        "y": 87
       },
       "id": 18,
       "options": {
@@ -3222,8 +3222,8 @@
             "axisPlacement": "auto",
             "barAlignment": 0,
             "drawStyle": "line",
-            "fillOpacity": 0,
-            "gradientMode": "none",
+            "fillOpacity": 12,
+            "gradientMode": "opacity",
             "hideFrom": {
               "legend": false,
               "tooltip": false,
@@ -3266,7 +3266,7 @@
         "h": 11,
         "w": 8,
         "x": 8,
-        "y": 88
+        "y": 87
       },
       "id": 52,
       "options": {
@@ -3323,8 +3323,8 @@
             "axisPlacement": "auto",
             "barAlignment": 0,
             "drawStyle": "line",
-            "fillOpacity": 0,
-            "gradientMode": "none",
+            "fillOpacity": 12,
+            "gradientMode": "opacity",
             "hideFrom": {
               "legend": false,
               "tooltip": false,
@@ -3367,7 +3367,7 @@
         "h": 11,
         "w": 8,
         "x": 16,
-        "y": 88
+        "y": 87
       },
       "id": 74,
       "options": {
@@ -3491,7 +3491,7 @@
         "h": 1,
         "w": 8,
         "x": 0,
-        "y": 97
+        "y": 98
       },
       "id": 94,
       "options": {
@@ -3517,109 +3517,8 @@
             "axisPlacement": "auto",
             "barAlignment": 0,
             "drawStyle": "line",
-            "fillOpacity": 0,
-            "gradientMode": "none",
-            "hideFrom": {
-              "legend": false,
-              "tooltip": false,
-              "viz": false
-            },
-            "lineInterpolation": "linear",
-            "lineWidth": 1,
-            "pointSize": 5,
-            "scaleDistribution": {
-              "type": "linear"
-            },
-            "showPoints": "auto",
-            "spanNulls": false,
-            "stacking": {
-              "group": "A",
-              "mode": "none"
-            },
-            "thresholdsStyle": {
-              "mode": "off"
-            }
-          },
-          "mappings": [],
-          "thresholds": {
-            "mode": "percentage",
-            "steps": [
-              {
-                "color": "green",
-                "value": null
-              },
-              {
-                "color": "red",
-                "value": 80
-              }
-            ]
-          }
-        },
-        "overrides": []
-      },
-      "gridPos": {
-        "h": 9,
-        "w": 8,
-        "x": 0,
-        "y": 98
-      },
-      "id": 96,
-      "options": {
-        "legend": {
-          "calcs": [],
-          "displayMode": "list",
-          "placement": "bottom"
-        },
-        "tooltip": {
-          "mode": "single",
-          "sort": "none"
-        }
-      },
-      "targets": [
-        {
-          "alias": "",
-          "datasource": {
-            "type": "cloudwatch",
-            "uid": "${cwsource}"
-          },
-          "dimensions": {
-            "FunctionName": "$nginx_access"
-          },
-          "expression": "",
-          "id": "",
-          "matchExact": true,
-          "metricEditorMode": 0,
-          "metricName": "Errors",
-          "metricQueryType": 0,
-          "namespace": "AWS/Lambda",
-          "period": "",
-          "queryMode": "Metrics",
-          "refId": "A",
-          "region": "default",
-          "sqlExpression": "",
-          "statistic": "Average"
-        }
-      ],
-      "title": "Lambda: nginx-access - Error count rate (%)",
-      "type": "timeseries"
-    },
-    {
-      "datasource": {
-        "type": "cloudwatch",
-        "uid": "${cwsource}"
-      },
-      "fieldConfig": {
-        "defaults": {
-          "color": {
-            "mode": "palette-classic"
-          },
-          "custom": {
-            "axisLabel": "",
-            "axisPlacement": "auto",
-            "barAlignment": 0,
-            "drawStyle": "line",
-            "fillOpacity": 0,
-            "gradientMode": "none",
+            "fillOpacity": 12,
+            "gradientMode": "opacity",
             "hideFrom": {
               "legend": false,
               "tooltip": false,
@@ -3662,7 +3561,7 @@
         "h": 11,
         "w": 8,
         "x": 8,
-        "y": 99
+        "y": 98
       },
       "id": 54,
       "options": {
@@ -3784,7 +3683,7 @@
         "h": 11,
         "w": 8,
         "x": 16,
-        "y": 99
+        "y": 98
       },
       "id": 76,
       "options": {
@@ -3839,8 +3738,109 @@
             "axisPlacement": "auto",
             "barAlignment": 0,
             "drawStyle": "line",
-            "fillOpacity": 0,
-            "gradientMode": "none",
+            "fillOpacity": 12,
+            "gradientMode": "opacity",
+            "hideFrom": {
+              "legend": false,
+              "tooltip": false,
+              "viz": false
+            },
+            "lineInterpolation": "linear",
+            "lineWidth": 1,
+            "pointSize": 5,
+            "scaleDistribution": {
+              "type": "linear"
+            },
+            "showPoints": "auto",
+            "spanNulls": false,
+            "stacking": {
+              "group": "A",
+              "mode": "none"
+            },
+            "thresholdsStyle": {
+              "mode": "off"
+            }
+          },
+          "mappings": [],
+          "thresholds": {
+            "mode": "percentage",
+            "steps": [
+              {
+                "color": "green",
+                "value": null
+              },
+              {
+                "color": "red",
+                "value": 80
+              }
+            ]
+          }
+        },
+        "overrides": []
+      },
+      "gridPos": {
+        "h": 9,
+        "w": 8,
+        "x": 0,
+        "y": 99
+      },
+      "id": 96,
+      "options": {
+        "legend": {
+          "calcs": [],
+          "displayMode": "list",
+          "placement": "bottom"
+        },
+        "tooltip": {
+          "mode": "single",
+          "sort": "none"
+        }
+      },
+      "targets": [
+        {
+          "alias": "",
+          "datasource": {
+            "type": "cloudwatch",
+            "uid": "${cwsource}"
+          },
+          "dimensions": {
+            "FunctionName": "$nginx_access"
+          },
+          "expression": "",
+          "id": "",
+          "matchExact": true,
+          "metricEditorMode": 0,
+          "metricName": "Errors",
+          "metricQueryType": 0,
+          "namespace": "AWS/Lambda",
+          "period": "",
+          "queryMode": "Metrics",
+          "refId": "A",
+          "region": "default",
+          "sqlExpression": "",
+          "statistic": "Average"
+        }
+      ],
+      "title": "Lambda: nginx-access - Error count rate (%)",
+      "type": "timeseries"
+    },
+    {
+      "datasource": {
+        "type": "cloudwatch",
+        "uid": "${cwsource}"
+      },
+      "fieldConfig": {
+        "defaults": {
+          "color": {
+            "mode": "palette-classic"
+          },
+          "custom": {
+            "axisLabel": "",
+            "axisPlacement": "auto",
+            "barAlignment": 0,
+            "drawStyle": "line",
+            "fillOpacity": 12,
+            "gradientMode": "opacity",
             "hideFrom": {
               "legend": false,
               "tooltip": false,
@@ -3883,7 +3883,7 @@
         "h": 9,
         "w": 8,
         "x": 0,
-        "y": 107
+        "y": 108
       },
       "id": 98,
       "options": {
@@ -3940,8 +3940,8 @@
             "axisPlacement": "auto",
             "barAlignment": 0,
             "drawStyle": "line",
-            "fillOpacity": 0,
-            "gradientMode": "none",
+            "fillOpacity": 12,
+            "gradientMode": "opacity",
             "hideFrom": {
               "legend": false,
               "tooltip": false,
@@ -3984,7 +3984,7 @@
         "h": 11,
         "w": 8,
         "x": 8,
-        "y": 110
+        "y": 109
       },
       "id": 56,
       "options": {
@@ -4041,8 +4041,8 @@
             "axisPlacement": "auto",
             "barAlignment": 0,
             "drawStyle": "line",
-            "fillOpacity": 0,
-            "gradientMode": "none",
+            "fillOpacity": 12,
+            "gradientMode": "opacity",
             "hideFrom": {
               "legend": false,
               "tooltip": false,
@@ -4085,7 +4085,7 @@
         "h": 8,
         "w": 8,
         "x": 16,
-        "y": 110
+        "y": 109
       },
       "id": 80,
       "options": {
@@ -4240,8 +4240,8 @@
             "axisPlacement": "auto",
             "barAlignment": 0,
             "drawStyle": "line",
-            "fillOpacity": 0,
-            "gradientMode": "none",
+            "fillOpacity": 12,
+            "gradientMode": "opacity",
             "hideFrom": {
               "legend": false,
               "tooltip": false,
@@ -4284,7 +4284,7 @@
         "h": 9,
         "w": 8,
         "x": 0,
-        "y": 116
+        "y": 117
       },
       "id": 100,
       "options": {
@@ -4341,8 +4341,8 @@
             "axisPlacement": "auto",
             "barAlignment": 0,
             "drawStyle": "line",
-            "fillOpacity": 0,
-            "gradientMode": "none",
+            "fillOpacity": 12,
+            "gradientMode": "opacity",
             "hideFrom": {
               "legend": false,
               "tooltip": false,
@@ -4385,7 +4385,7 @@
         "h": 9,
         "w": 8,
         "x": 16,
-        "y": 118
+        "y": 117
       },
       "id": 82,
       "options": {
@@ -4540,8 +4540,8 @@
             "axisPlacement": "auto",
             "barAlignment": 0,
             "drawStyle": "line",
-            "fillOpacity": 0,
-            "gradientMode": "none",
+            "fillOpacity": 12,
+            "gradientMode": "opacity",
             "hideFrom": {
               "legend": false,
               "tooltip": false,
@@ -4584,7 +4584,7 @@
         "h": 11,
         "w": 8,
         "x": 8,
-        "y": 121
+        "y": 120
       },
       "id": 58,
       "options": {
@@ -4641,8 +4641,8 @@
             "axisPlacement": "auto",
             "barAlignment": 0,
             "drawStyle": "line",
-            "fillOpacity": 0,
-            "gradientMode": "none",
+            "fillOpacity": 12,
+            "gradientMode": "opacity",
             "hideFrom": {
               "legend": false,
               "tooltip": false,
@@ -4685,7 +4685,7 @@
         "h": 10,
         "w": 8,
         "x": 0,
-        "y": 125
+        "y": 126
       },
       "id": 102,
       "options": {
@@ -4766,8 +4766,8 @@
             "axisPlacement": "auto",
             "barAlignment": 0,
             "drawStyle": "line",
-            "fillOpacity": 0,
-            "gradientMode": "none",
+            "fillOpacity": 12,
+            "gradientMode": "opacity",
             "hideFrom": {
               "legend": false,
               "tooltip": false,
@@ -4810,7 +4810,7 @@
         "h": 9,
         "w": 8,
         "x": 16,
-        "y": 127
+        "y": 126
       },
       "id": 84,
       "options": {
@@ -4939,8 +4939,8 @@
             "axisPlacement": "auto",
             "barAlignment": 0,
             "drawStyle": "line",
-            "fillOpacity": 0,
-            "gradientMode": "none",
+            "fillOpacity": 12,
+            "gradientMode": "opacity",
             "hideFrom": {
               "legend": false,
               "tooltip": false,
@@ -4983,7 +4983,7 @@
         "h": 10,
         "w": 8,
         "x": 8,
-        "y": 132
+        "y": 131
       },
       "id": 60,
       "options": {
@@ -5064,109 +5064,8 @@
             "axisPlacement": "auto",
             "barAlignment": 0,
             "drawStyle": "line",
-            "fillOpacity": 0,
-            "gradientMode": "none",
-            "hideFrom": {
-              "legend": false,
-              "tooltip": false,
-              "viz": false
-            },
-            "lineInterpolation": "linear",
-            "lineWidth": 1,
-            "pointSize": 5,
-            "scaleDistribution": {
-              "type": "linear"
-            },
-            "showPoints": "auto",
-            "spanNulls": false,
-            "stacking": {
-              "group": "A",
-              "mode": "none"
-            },
-            "thresholdsStyle": {
-              "mode": "off"
-            }
-          },
-          "mappings": [],
-          "thresholds": {
-            "mode": "absolute",
-            "steps": [
-              {
-                "color": "green",
-                "value": null
-              },
-              {
-                "color": "red",
-                "value": 80
-              }
-            ]
-          }
-        },
-        "overrides": []
-      },
-      "gridPos": {
-        "h": 10,
-        "w": 8,
-        "x": 0,
-        "y": 135
-      },
-      "id": 104,
-      "options": {
-        "legend": {
-          "calcs": [],
-          "displayMode": "list",
-          "placement": "bottom"
-        },
-        "tooltip": {
-          "mode": "single",
-          "sort": "none"
-        }
-      },
-      "targets": [
-        {
-          "alias": "",
-          "datasource": {
-            "type": "cloudwatch",
-            "uid": "${cwsource}"
-          },
-          "dimensions": {
-            "FunctionName": "$cwl"
-          },
-          "expression": "",
-          "id": "",
-          "matchExact": true,
-          "metricEditorMode": 0,
-          "metricName": "Duration",
-          "metricQueryType": 0,
-          "namespace": "AWS/Lambda",
-          "period": "",
-          "queryMode": "Metrics",
-          "refId": "A",
-          "region": "default",
-          "sqlExpression": "",
-          "statistic": "Average"
-        }
-      ],
-      "title": "Lamda sending logs Duration: cwl",
-      "type": "timeseries"
-    },
-    {
-      "datasource": {
-        "type": "cloudwatch",
-        "uid": "${cwsource}"
-      },
-      "fieldConfig": {
-        "defaults": {
-          "color": {
-            "mode": "palette-classic"
-          },
-          "custom": {
-            "axisLabel": "",
-            "axisPlacement": "auto",
-            "barAlignment": 0,
-            "drawStyle": "line",
-            "fillOpacity": 0,
-            "gradientMode": "none",
+            "fillOpacity": 12,
+            "gradientMode": "opacity",
             "hideFrom": {
               "legend": false,
               "tooltip": false,
@@ -5209,7 +5108,7 @@
         "h": 10,
         "w": 8,
         "x": 16,
-        "y": 136
+        "y": 135
       },
       "id": 86,
       "options": {
@@ -5338,8 +5237,109 @@
             "axisPlacement": "auto",
             "barAlignment": 0,
             "drawStyle": "line",
-            "fillOpacity": 0,
-            "gradientMode": "none",
+            "fillOpacity": 12,
+            "gradientMode": "opacity",
+            "hideFrom": {
+              "legend": false,
+              "tooltip": false,
+              "viz": false
+            },
+            "lineInterpolation": "linear",
+            "lineWidth": 1,
+            "pointSize": 5,
+            "scaleDistribution": {
+              "type": "linear"
+            },
+            "showPoints": "auto",
+            "spanNulls": false,
+            "stacking": {
+              "group": "A",
+              "mode": "none"
+            },
+            "thresholdsStyle": {
+              "mode": "off"
+            }
+          },
+          "mappings": [],
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "green",
+                "value": null
+              },
+              {
+                "color": "red",
+                "value": 80
+              }
+            ]
+          }
+        },
+        "overrides": []
+      },
+      "gridPos": {
+        "h": 10,
+        "w": 8,
+        "x": 0,
+        "y": 136
+      },
+      "id": 104,
+      "options": {
+        "legend": {
+          "calcs": [],
+          "displayMode": "list",
+          "placement": "bottom"
+        },
+        "tooltip": {
+          "mode": "single",
+          "sort": "none"
+        }
+      },
+      "targets": [
+        {
+          "alias": "",
+          "datasource": {
+            "type": "cloudwatch",
+            "uid": "${cwsource}"
+          },
+          "dimensions": {
+            "FunctionName": "$cwl"
+          },
+          "expression": "",
+          "id": "",
+          "matchExact": true,
+          "metricEditorMode": 0,
+          "metricName": "Duration",
+          "metricQueryType": 0,
+          "namespace": "AWS/Lambda",
+          "period": "",
+          "queryMode": "Metrics",
+          "refId": "A",
+          "region": "default",
+          "sqlExpression": "",
+          "statistic": "Average"
+        }
+      ],
+      "title": "Lamda sending logs Duration: cwl",
+      "type": "timeseries"
+    },
+    {
+      "datasource": {
+        "type": "cloudwatch",
+        "uid": "${cwsource}"
+      },
+      "fieldConfig": {
+        "defaults": {
+          "color": {
+            "mode": "palette-classic"
+          },
+          "custom": {
+            "axisLabel": "",
+            "axisPlacement": "auto",
+            "barAlignment": 0,
+            "drawStyle": "line",
+            "fillOpacity": 12,
+            "gradientMode": "opacity",
             "hideFrom": {
               "legend": false,
               "tooltip": false,
@@ -5382,7 +5382,7 @@
         "h": 6,
         "w": 4,
         "x": 8,
-        "y": 142
+        "y": 141
       },
       "id": 62,
       "options": {
@@ -5484,7 +5484,7 @@
         "h": 6,
         "w": 4,
         "x": 12,
-        "y": 142
+        "y": 141
       },
       "id": 20,
       "options": {
@@ -5542,133 +5542,8 @@
             "axisPlacement": "auto",
             "barAlignment": 0,
             "drawStyle": "line",
-            "fillOpacity": 0,
-            "gradientMode": "none",
-            "hideFrom": {
-              "legend": false,
-              "tooltip": false,
-              "viz": false
-            },
-            "lineInterpolation": "linear",
-            "lineWidth": 1,
-            "pointSize": 5,
-            "scaleDistribution": {
-              "type": "linear"
-            },
-            "showPoints": "auto",
-            "spanNulls": false,
-            "stacking": {
-              "group": "A",
-              "mode": "none"
-            },
-            "thresholdsStyle": {
-              "mode": "off"
-            }
-          },
-          "mappings": [],
-          "thresholds": {
-            "mode": "absolute",
-            "steps": [
-              {
-                "color": "green",
-                "value": null
-              },
-              {
-                "color": "red",
-                "value": 80
-              }
-            ]
-          }
-        },
-        "overrides": []
-      },
-      "gridPos": {
-        "h": 9,
-        "w": 8,
-        "x": 0,
-        "y": 145
-      },
-      "id": 114,
-      "options": {
-        "legend": {
-          "calcs": [],
-          "displayMode": "list",
-          "placement": "bottom"
-        },
-        "tooltip": {
-          "mode": "single",
-          "sort": "none"
-        }
-      },
-      "targets": [
-        {
-          "alias": "",
-          "datasource": {
-            "type": "cloudwatch",
-            "uid": "${cwsource}"
-          },
-          "dimensions": {
-            "FunctionName": "$nginx_access"
-          },
-          "expression": "",
-          "id": "",
-          "matchExact": true,
-          "metricEditorMode": 0,
-          "metricName": "Invocations",
-          "metricQueryType": 0,
-          "namespace": "AWS/Lambda",
-          "period": "",
-          "queryMode": "Metrics",
-          "refId": "A",
-          "region": "default",
-          "sqlExpression": "",
-          "statistic": "Sum"
-        },
-        {
-          "alias": "",
-          "datasource": {
-            "type": "cloudwatch",
-            "uid": "${cwsource}"
-          },
-          "dimensions": {
-            "FunctionName": "$nginx_error"
-          },
-          "expression": "",
-          "hide": false,
-          "id": "",
-          "matchExact": true,
-          "metricEditorMode": 0,
-          "metricName": "Invocations",
-          "metricQueryType": 0,
-          "namespace": "AWS/Lambda",
-          "period": "",
-          "queryMode": "Metrics",
-          "refId": "B",
-          "region": "default",
-          "sqlExpression": "",
-          "statistic": "Sum"
-        }
-      ],
-      "title": "Lambda: nginx - Invocations",
-      "type": "timeseries"
-    },
-    {
-      "datasource": {
-        "type": "cloudwatch",
-        "uid": "${cwsource}"
-      },
-      "fieldConfig": {
-        "defaults": {
-          "color": {
-            "mode": "palette-classic"
-          },
-          "custom": {
-            "axisLabel": "",
-            "axisPlacement": "auto",
-            "barAlignment": 0,
-            "drawStyle": "line",
-            "fillOpacity": 0,
-            "gradientMode": "none",
+            "fillOpacity": 12,
+            "gradientMode": "opacity",
             "hideFrom": {
               "legend": false,
               "tooltip": false,
@@ -5711,7 +5586,7 @@
         "h": 9,
         "w": 8,
         "x": 16,
-        "y": 146
+        "y": 145
       },
       "id": 88,
       "options": {
@@ -5840,8 +5715,8 @@
             "axisPlacement": "auto",
             "barAlignment": 0,
             "drawStyle": "line",
-            "fillOpacity": 0,
-            "gradientMode": "none",
+            "fillOpacity": 12,
+            "gradientMode": "opacity",
             "hideFrom": {
               "legend": false,
               "tooltip": false,
@@ -5881,12 +5756,12 @@
         "overrides": []
       },
       "gridPos": {
-        "h": 10,
+        "h": 9,
         "w": 8,
         "x": 0,
-        "y": 154
+        "y": 146
       },
-      "id": 116,
+      "id": 114,
       "options": {
         "legend": {
           "calcs": [],
@@ -5906,7 +5781,7 @@
             "uid": "${cwsource}"
           },
           "dimensions": {
-            "FunctionName": "$cwl"
+            "FunctionName": "$nginx_access"
           },
           "expression": "",
           "id": "",
@@ -5921,9 +5796,33 @@
           "region": "default",
           "sqlExpression": "",
           "statistic": "Sum"
+        },
+        {
+          "alias": "",
+          "datasource": {
+            "type": "cloudwatch",
+            "uid": "${cwsource}"
+          },
+          "dimensions": {
+            "FunctionName": "$nginx_error"
+          },
+          "expression": "",
+          "hide": false,
+          "id": "",
+          "matchExact": true,
+          "metricEditorMode": 0,
+          "metricName": "Invocations",
+          "metricQueryType": 0,
+          "namespace": "AWS/Lambda",
+          "period": "",
+          "queryMode": "Metrics",
+          "refId": "B",
+          "region": "default",
+          "sqlExpression": "",
+          "statistic": "Sum"
         }
       ],
-      "title": "Lambda: cwl - Invocations",
+      "title": "Lambda: nginx - Invocations",
       "type": "timeseries"
     },
     {
@@ -5941,8 +5840,8 @@
             "axisPlacement": "auto",
             "barAlignment": 0,
             "drawStyle": "line",
-            "fillOpacity": 0,
-            "gradientMode": "none",
+            "fillOpacity": 12,
+            "gradientMode": "opacity",
             "hideFrom": {
               "legend": false,
               "tooltip": false,
@@ -5985,7 +5884,7 @@
         "h": 9,
         "w": 8,
         "x": 16,
-        "y": 155
+        "y": 154
       },
       "id": 90,
       "options": {
@@ -6118,8 +6017,8 @@
             "axisPlacement": "auto",
             "barAlignment": 0,
             "drawStyle": "line",
-            "fillOpacity": 0,
-            "gradientMode": "none",
+            "fillOpacity": 12,
+            "gradientMode": "opacity",
             "hideFrom": {
               "legend": false,
               "tooltip": false,
@@ -6159,12 +6058,12 @@
         "overrides": []
       },
       "gridPos": {
-        "h": 9,
+        "h": 10,
         "w": 8,
         "x": 0,
-        "y": 164
+        "y": 155
       },
-      "id": 110,
+      "id": 116,
       "options": {
         "legend": {
           "calcs": [],
@@ -6184,13 +6083,13 @@
             "uid": "${cwsource}"
           },
           "dimensions": {
-            "FunctionName": "$nginx_access"
+            "FunctionName": "$cwl"
           },
           "expression": "",
           "id": "",
           "matchExact": true,
           "metricEditorMode": 0,
-          "metricName": "ConcurrentExecutions",
+          "metricName": "Invocations",
           "metricQueryType": 0,
           "namespace": "AWS/Lambda",
           "period": "",
@@ -6198,34 +6097,10 @@
           "refId": "A",
           "region": "default",
           "sqlExpression": "",
-          "statistic": "Average"
-        },
-        {
-          "alias": "",
-          "datasource": {
-            "type": "cloudwatch",
-            "uid": "${cwsource}"
-          },
-          "dimensions": {
-            "FunctionName": "$nginx_error"
-          },
-          "expression": "",
-          "hide": false,
-          "id": "",
-          "matchExact": true,
-          "metricEditorMode": 0,
-          "metricName": "ConcurrentExecutions",
-          "metricQueryType": 0,
-          "namespace": "AWS/Lambda",
-          "period": "",
-          "queryMode": "Metrics",
-          "refId": "B",
-          "region": "default",
-          "sqlExpression": "",
-          "statistic": "Average"
+          "statistic": "Sum"
         }
       ],
-      "title": "Lambda: nginx - Concurrent executions",
+      "title": "Lambda: cwl - Invocations",
       "type": "timeseries"
     },
     {
@@ -6243,8 +6118,8 @@
             "axisPlacement": "auto",
             "barAlignment": 0,
             "drawStyle": "line",
-            "fillOpacity": 0,
-            "gradientMode": "none",
+            "fillOpacity": 12,
+            "gradientMode": "opacity",
             "hideFrom": {
               "legend": false,
               "tooltip": false,
@@ -6287,7 +6162,7 @@
         "h": 10,
         "w": 8,
         "x": 16,
-        "y": 164
+        "y": 163
       },
       "id": 92,
       "options": {
@@ -6420,8 +6295,8 @@
             "axisPlacement": "auto",
             "barAlignment": 0,
             "drawStyle": "line",
-            "fillOpacity": 0,
-            "gradientMode": "none",
+            "fillOpacity": 12,
+            "gradientMode": "opacity",
             "hideFrom": {
               "legend": false,
               "tooltip": false,
@@ -6464,7 +6339,132 @@
         "h": 9,
         "w": 8,
         "x": 0,
-        "y": 173
+        "y": 165
+      },
+      "id": 110,
+      "options": {
+        "legend": {
+          "calcs": [],
+          "displayMode": "list",
+          "placement": "bottom"
+        },
+        "tooltip": {
+          "mode": "single",
+          "sort": "none"
+        }
+      },
+      "targets": [
+        {
+          "alias": "",
+          "datasource": {
+            "type": "cloudwatch",
+            "uid": "${cwsource}"
+          },
+          "dimensions": {
+            "FunctionName": "$nginx_access"
+          },
+          "expression": "",
+          "id": "",
+          "matchExact": true,
+          "metricEditorMode": 0,
+          "metricName": "ConcurrentExecutions",
+          "metricQueryType": 0,
+          "namespace": "AWS/Lambda",
+          "period": "",
+          "queryMode": "Metrics",
+          "refId": "A",
+          "region": "default",
+          "sqlExpression": "",
+          "statistic": "Average"
+        },
+        {
+          "alias": "",
+          "datasource": {
+            "type": "cloudwatch",
+            "uid": "${cwsource}"
+          },
+          "dimensions": {
+            "FunctionName": "$nginx_error"
+          },
+          "expression": "",
+          "hide": false,
+          "id": "",
+          "matchExact": true,
+          "metricEditorMode": 0,
+          "metricName": "ConcurrentExecutions",
+          "metricQueryType": 0,
+          "namespace": "AWS/Lambda",
+          "period": "",
+          "queryMode": "Metrics",
+          "refId": "B",
+          "region": "default",
+          "sqlExpression": "",
+          "statistic": "Average"
+        }
+      ],
+      "title": "Lambda: nginx - Concurrent executions",
+      "type": "timeseries"
+    },
+    {
+      "datasource": {
+        "type": "cloudwatch",
+        "uid": "${cwsource}"
+      },
+      "fieldConfig": {
+        "defaults": {
+          "color": {
+            "mode": "palette-classic"
+          },
+          "custom": {
+            "axisLabel": "",
+            "axisPlacement": "auto",
+            "barAlignment": 0,
+            "drawStyle": "line",
+            "fillOpacity": 12,
+            "gradientMode": "opacity",
+            "hideFrom": {
+              "legend": false,
+              "tooltip": false,
+              "viz": false
+            },
+            "lineInterpolation": "linear",
+            "lineWidth": 1,
+            "pointSize": 5,
+            "scaleDistribution": {
+              "type": "linear"
+            },
+            "showPoints": "auto",
+            "spanNulls": false,
+            "stacking": {
+              "group": "A",
+              "mode": "none"
+            },
+            "thresholdsStyle": {
+              "mode": "off"
+            }
+          },
+          "mappings": [],
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "green",
+                "value": null
+              },
+              {
+                "color": "red",
+                "value": 80
+              }
+            ]
+          }
+        },
+        "overrides": []
+      },
+      "gridPos": {
+        "h": 9,
+        "w": 8,
+        "x": 0,
+        "y": 174
       },
       "id": 112,
       "options": {
@@ -6736,6 +6736,6 @@
   "timezone": "",
   "title": "Duty",
   "uid": "tuyzAH44k",
-  "version": 45,
+  "version": 52,
   "weekStart": ""
 }
