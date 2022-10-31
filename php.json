@@ -24,7 +24,7 @@
   "gnetId": 5714,
   "graphTooltip": 0,
   "id": 9,
-  "iteration": 1665346370903,
+  "iteration": 1667207277931,
   "links": [
     {
       "asDropdown": false,
@@ -1319,7 +1319,7 @@
     ]
   },
   "time": {
-    "from": "now-12h",
+    "from": "now-7d",
     "to": "now"
   },
   "timepicker": {
@@ -1350,6 +1350,6 @@
   "timezone": "browser",
   "title": "PHP-FPM monitoring",
   "uid": "D6TvmAZik",
-  "version": 32,
+  "version": 33,
   "weekStart": ""
 }
