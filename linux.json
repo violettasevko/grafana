@@ -25,7 +25,7 @@
   "gnetId": 1860,
   "graphTooltip": 0,
   "id": 15,
-  "iteration": 1665173680429,
+  "iteration": 1667207324252,
   "links": [
     {
       "asDropdown": false,
@@ -21333,7 +21333,7 @@
     ]
   },
   "time": {
-    "from": "now-2d",
+    "from": "now-7d",
     "to": "now"
   },
   "timepicker": {
@@ -21364,6 +21364,6 @@
   "timezone": "browser",
   "title": "Linux monitoring",
   "uid": "rYdddlPWk",
-  "version": 38,
+  "version": 39,
   "weekStart": ""
 }
