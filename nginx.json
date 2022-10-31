@@ -24,7 +24,7 @@
   "gnetId": 12708,
   "graphTooltip": 0,
   "id": 11,
-  "iteration": 1665173731746,
+  "iteration": 1667207297824,
   "links": [
     {
       "asDropdown": false,
@@ -687,7 +687,7 @@
     ]
   },
   "time": {
-    "from": "now-2d",
+    "from": "now-7d",
     "to": "now"
   },
   "timepicker": {
@@ -718,6 +718,6 @@
   "timezone": "",
   "title": "Nginx monitoring",
   "uid": "MsjffzSZz",
-  "version": 33,
+  "version": 35,
   "weekStart": ""
 }
